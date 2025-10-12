@@ -1,0 +1,501 @@
+id,frase
+1,A professora corrigiu as provas com muita atenção ontem.
+2,O cachorro dormiu tranquilo no sofá da sala.
+3,Houve muita confusão durante o show de rock.
+4,Minha mãe preparou um jantar delicioso para todos nós.
+5,O sol apareceu entre as nuvens logo pela manhã.
+6,As crianças brincavam alegres no parque da escola.
+7,O aluno apresentou seu trabalho com bastante segurança.
+8,Está muito frio aqui desde a madrugada passada.
+9,O vento soprou forte sobre o mar revolto.
+10,A moça parecia cansada depois de tanto estudar.
+11,Compramos frutas frescas na feira de domingo cedo.
+12,O motorista estacionou o carro perto da padaria.
+13,A menina desenhou flores coloridas no caderno novo.
+14,Os bombeiros chegaram rápido ao local do incêndio.
+15,O cantor se apresentou no teatro com grande sucesso.
+16,A criança chorou alto ao ver o palhaço assustador.
+17,O gerente analisou o relatório com bastante cuidado ontem.
+18,Está chovendo forte desde o início da tarde.
+19,Houve protestos intensos na praça principal da cidade.
+20,A garota escreveu uma carta longa para o namorado.
+21,O gato observava atento os pássaros na janela aberta.
+22,A enfermeira aplicou a injeção com muito cuidado.
+23,Os turistas visitaram o museu histórico da capital brasileira.
+24,O aluno respondeu corretamente todas as perguntas da prova.
+25,O bebê dormiu tranquilo no colo da avó querida.
+26,A casa ficou linda depois da nova pintura azul.
+27,Trabalhamos juntos no projeto final do curso técnico.
+28,A secretária marcou as reuniões no calendário da semana.
+29,Surgiu um novo problema no servidor principal da empresa.
+30,O menino ficou feliz ao ganhar seu primeiro prêmio.
+31,Choveu durante toda a tarde na cidade de Santos.
+32,O rapaz entregou flores vermelhas para sua namorada.
+33,Faz muito calor hoje nesta região do país.
+34,O mecânico consertou o carro que estava com defeito.
+35,A noite caiu lentamente sobre o vale silencioso.
+36,A professora explicou a matéria com clareza e paciência.
+37,O cachorro parecia assustado com o barulho do trovão.
+38,Houve uma forte explosão na fábrica durante a manhã.
+39,A mãe preparou o almoço enquanto o pai descansava.
+40,Os alunos estudaram bastante para a prova de matemática.
+41,Está ventando muito forte perto da praia de Itapuã.
+42,A moça se tornou médica após muitos anos de estudo.
+43,A rua ficou completamente alagada após a tempestade.
+44,O garoto contou uma piada engraçada para seus amigos.
+45,A chuva caiu forte sobre os telhados da cidade.
+46,A criança parecia triste com a ausência da mãe.
+47,Os meninos jogaram bola no campinho perto da escola.
+48,A família assistiu ao filme juntos no sábado à noite.
+49,O bebê começou a engatinhar pela casa esta semana.
+50,Está amanhecendo lentamente sobre o mar calmo e azul.
+51,O rapaz pediu ajuda ao vizinho para trocar o pneu.
+52,Houve atrasos no aeroporto devido à forte neblina.
+53,A garota parecia feliz com seu novo corte de cabelo.
+54,O gerente aprovou o projeto apresentado pelos funcionários.
+55,A professora elogiou o aluno pelo excelente desempenho.
+56,O menino derrubou o suco no tapete da sala.
+57,O vento balançou as cortinas da janela do quarto.
+58,Trabalharam juntos o dia inteiro no escritório da empresa.
+59,A criança brincava de esconde-esconde com seus amigos.
+60,Está nevando bastante nas montanhas do sul do país.
+61,O cachorro latiu alto ao ver o carteiro se aproximando.
+62,O cantor lançou um novo álbum que fez muito sucesso.
+63,O aluno estudou tarde da noite para o exame final.
+64,As flores cresceram rapidamente com a chegada da primavera.
+65,A casa cheira a café fresco feito logo cedo.
+66,A enfermeira cuidou do paciente com muito carinho.
+67,Houve uma queda de energia durante a tempestade.
+68,O casal viajou para o interior durante o feriado prolongado.
+69,O menino correu rápido para alcançar o ônibus escolar.
+70,O sol brilhou forte sobre a praia de areia branca.
+71,A moça sorriu ao receber o elogio do chefe.
+72,O gato dormia enrolado no cobertor durante o frio.
+73,O aluno terminou a redação antes do tempo acabar.
+74,O mecânico trocou as velas do motor do carro.
+75,Está muito escuro aqui por causa das nuvens pesadas.
+76,O bebê riu alto ao ver o rosto do pai.
+77,O vento espalhou as folhas secas pelo quintal inteiro.
+78,A professora explicou o exercício passo a passo para todos.
+79,O rapaz parecia nervoso antes da entrevista de emprego.
+80,Houve muita emoção no reencontro da turma antiga.
+81,A mãe arrumou a mesa para o jantar especial.
+82,O aluno desenhou um mapa detalhado da América do Sul.
+83,Está frio demais nesta época do ano em Curitiba.
+84,O cachorro cavou um buraco no jardim da vizinha.
+85,O bebê parecia sonhar enquanto dormia no berço.
+86,A moça limpou o quarto antes das visitas chegarem.
+87,O cantor ensaiou a música nova por várias horas.
+88,O menino aprendeu a nadar durante as férias de verão.
+89,O vento soprava gelado nas ruas desertas da cidade.
+90,A mulher fechou a janela por causa da chuva.
+91,Os amigos se encontraram no bar depois do expediente.
+92,O professor elogiou a turma pelo ótimo comportamento.
+93,Houve aplausos quando o artista terminou sua apresentação.
+94,A menina sorriu feliz ao ver o presente embrulhado.
+95,O carro parou de funcionar no meio da estrada.
+96,Está amanhecendo devagar sobre os campos cobertos de névoa.
+97,O casal caminhou de mãos dadas pela beira da praia.
+98,O gato pulou da cadeira direto para o sofá.
+99,A mãe ficou preocupada com a febre do filho.
+100,O ônibus chegou atrasado devido ao trânsito intenso.
+101,O menino guardou seus brinquedos antes de dormir.
+102,O chefe entregou a promoção ao funcionário mais dedicado.
+103,A professora distribuiu as provas corrigidas para a turma.
+104,Está chovendo desde a madrugada nesta região montanhosa.
+105,Houve poucos convidados na festa de aniversário de ontem.
+106,A moça se arrumou para sair com as amigas.
+107,O gato observava os peixes dentro do aquário colorido.
+108,O cantor parecia cansado após o longo show da noite.
+109,O aluno esqueceu o caderno em casa novamente hoje cedo.
+110,A criança dormia no sofá enquanto a TV permanecia ligada.
+111,O vento balançava as árvores altas da praça central.
+112,O bebê aprendeu a dizer suas primeiras palavras hoje.
+113,Está ventando muito nas montanhas próximas à fronteira.
+114,A moça vestia um vestido azul com flores amarelas.
+115,O cachorro latiu quando ouviu o portão se abrindo.
+116,A professora pediu silêncio para começar a explicação.
+117,Houve comemoração após o anúncio do resultado oficial.
+118,A mulher preparou um café fresco para receber as visitas.
+119,O menino subiu na árvore para pegar uma fruta.
+120,O cantor se apresentou sorridente diante do público animado.
+121,Está frio nesta cidade desde o começo da semana.
+122,O sol apareceu forte depois da chuva passar completamente.
+123,O bebê ficou assustado com o barulho do trovão.
+124,Os turistas fotografaram as paisagens belas do litoral cearense.
+125,O gato dormiu enrolado no tapete perto da porta.
+126,A moça parecia confusa com tantas informações diferentes.
+127,Houve atraso na entrega dos pacotes do correio.
+128,A criança aprendeu a escrever seu nome pela primeira vez.
+129,O rapaz correu até o mercado antes de anoitecer.
+130,A mãe abraçou o filho emocionada depois da apresentação.
+131,Está chovendo leve na região central da cidade.
+132,O vento derrubou galhos das árvores na avenida principal.
+133,O cantor lançou seu novo clipe nas redes sociais.
+134,O bebê riu alto ao ver o gato pulando.
+135,A professora elogiou o desenho criativo da aluna pequena.
+136,O menino chorou porque perdeu o brinquedo no parque.
+137,Houve silêncio absoluto após o término da reunião.
+138,A moça comprou flores para decorar a mesa do jantar.
+139,O gato observava curioso o peixe nadando no aquário.
+140,O vento espalhou papéis velhos pelo corredor da escola.
+141,Está nevando forte nas montanhas geladas do Chile.
+142,O aluno apresentou um excelente desempenho na prova de física.
+143,O motorista buzinou para o pedestre atravessando a rua.
+144,A menina sorriu tímida ao receber o elogio sincero.
+145,O cachorro correu atrás da bola no gramado molhado.
+146,Houve muita alegria no casamento dos dois amigos.
+147,O vento gelado entrou pela janela aberta da sala.
+148,O bebê dormia tranquilo enquanto a mãe lia um livro.
+149,A mulher parecia cansada depois de um longo dia.
+150,Está amanhecendo devagar sobre as colinas do interior.
+151,A professora explicou pacientemente cada dúvida da turma.
+152,Os ventos sopraram forte durante toda a madrugada.
+153,O cachorro latiu alto quando ouviu o portão bater.
+154,Mariana preparou o almoço e arrumou toda a casa.
+155,O cantor parecia cansado depois do longo espetáculo.
+156,Viajei para o interior com meus primos no feriado.
+157,O gerente analisou o relatório antes de aprová-lo.
+158,As crianças brincaram felizes no parque da escola.
+159,A lua surgiu brilhante por trás das montanhas verdes.
+160,Esqueci meu guarda-chuva na sala de reunião.
+161,A moça sorriu timidamente ao ver o rapaz.
+162,Choverá forte amanhã segundo o boletim meteorológico.
+163,A secretária respondeu aos e-mails com bastante eficiência.
+164,Os jogadores treinaram duro para a partida decisiva.
+165,O médico receitou um novo remédio para o paciente.
+166,O avião pousou em segurança apesar da tempestade.
+167,A luz piscou várias vezes durante a ventania.
+168,Encontrei minha antiga professora no centro da cidade.
+169,O diretor assistiu atento à apresentação dos alunos.
+170,A menina parecia confusa com tantas informações novas.
+171,Consertaram o telhado antes que começasse a chover.
+172,O relógio parou de funcionar de repente ontem.
+173,O vizinho ofereceu ajuda quando viu o acidente.
+174,Estivemos na feira comprando frutas e legumes frescos.
+175,Os bombeiros chegaram rápido para conter o incêndio.
+176,O bebê dormiu tranquilo depois do banho quente.
+177,Carlos entregou os documentos solicitados pela empresa ontem.
+178,A jovem médica tornou-se referência em sua área.
+179,A ponte caiu com a força da enxurrada.
+180,O policial prendeu o ladrão após uma longa perseguição.
+181,Gosto muito de caminhar pela praia ao entardecer.
+182,Os alunos concluíram o trabalho com bastante dedicação.
+183,O jardim floresceu depois das chuvas de primavera.
+184,Minha mãe ficou contente com o presente surpresa.
+185,Os meninos construíram uma cabana no quintal da escola.
+186,O motorista perdeu o controle ao fazer a curva.
+187,O vento espalhou as folhas secas pela calçada.
+188,A empresa contratou novos funcionários para o setor financeiro.
+189,João acordou cedo e saiu para correr no parque.
+190,A plateia aplaudiu entusiasmada o fim da apresentação.
+191,As nuvens escureceram o céu em poucos minutos.
+192,O gato subiu no muro para observar o movimento.
+193,Meu avô contou histórias antigas durante o jantar.
+194,A chuva começou assim que saímos de casa.
+195,A cozinheira preparou um bolo delicioso para o aniversário.
+196,O estudante revisou toda a matéria antes da prova.
+197,A televisão quebrou bem no meio do filme.
+198,Os turistas chegaram encantados à cidade histórica.
+199,O juiz anunciou o resultado com voz firme e calma.
+200,As flores do jardim exalavam um perfume agradável.
+201,O trem passou pontualmente às seis da manhã.
+202,O mecânico consertou o carro em menos de uma hora.
+203,Os peixes nadavam tranquilos no aquário colorido.
+204,Meu tio viajou para o exterior a trabalho.
+205,A professora escreveu no quadro as instruções da tarefa.
+206,O padeiro tirou o pão quente do forno.
+207,A torcida vibrou com o gol da vitória.
+208,O vento gelado soprou forte durante a noite.
+209,Os pais conversaram com o diretor sobre o comportamento do filho.
+210,O cantor agradeceu o público antes de encerrar o show.
+211,As estrelas brilharam intensamente no céu limpo.
+212,O carteiro entregou todas as correspondências da rua.
+213,As crianças observaram curiosas o experimento do professor.
+214,Meu irmão quebrou o vaso novo da sala.
+215,O cachorro se escondeu quando ouviu o trovão.
+216,A luz do sol iluminava o campo de flores.
+217,A diretora elogiou os alunos pelo bom desempenho.
+218,Os vizinhos comemoraram juntos o ano-novo na praça.
+219,A avó bordou um pano bonito com flores vermelhas.
+220,O pintor assinou sua obra com orgulho e emoção.
+221,A menina correu sorrindo para abraçar a mãe.
+222,As pessoas esperavam ansiosas a abertura das lojas.
+223,O rio transbordou após horas de chuva intensa.
+224,A bailarina ensaiou os passos para a grande apresentação.
+225,Meu pai limpou o carro e lavou o quintal.
+226,O estudante pediu ajuda para entender a matéria.
+227,A noiva entrou sorrindo na igreja cheia de flores.
+228,O guarda observava atento a movimentação da rua.
+229,A secretária marcou uma reunião para amanhã de manhã.
+230,O vento espalhou as cinzas pelo campo deserto.
+231,Os alunos responderam corretamente todas as perguntas da prova.
+232,O garçom serviu o jantar com rapidez e educação.
+233,O fazendeiro cuidava do gado desde o amanhecer.
+234,As árvores balançavam suavemente com a brisa da tarde.
+235,A criança chorava de sono no colo da mãe.
+236,O escritor lançou seu novo livro na livraria central.
+237,A maré subiu rapidamente e cobriu toda a areia.
+238,O atleta venceu a corrida com larga vantagem.
+239,As luzes da cidade refletiam no rio escuro.
+240,A enfermeira aplicou a injeção com muito cuidado.
+241,O velho relógio voltou a funcionar depois do conserto.
+242,A tempestade destruiu parte da plantação de milho.
+243,Os alunos participaram da gincana com grande entusiasmo.
+244,O professor explicou o tema com exemplos bem claros.
+245,A cantora ensaiou a nova música com o pianista.
+246,As formigas carregavam pedaços de folhas pelo chão.
+247,A empregada limpou os vidros e varreu o corredor.
+248,Os pescadores voltaram cedo com muitos peixes no barco.
+249,O bebê sorriu quando viu o brinquedo colorido.
+250,A médica atendeu todos os pacientes do turno noturno.
+251,As montanhas pareciam cobertas de neve ao amanhecer.
+252,O estudante apresentou o projeto com segurança e clareza.
+253,A banda tocou músicas antigas durante o baile.
+254,Os motoristas enfrentaram trânsito intenso na rodovia principal.
+255,A cozinheira fritou pastéis e preparou suco natural.
+256,O chefe elogiou o funcionário pelo ótimo desempenho.
+257,A menina observava os pássaros cantando no jardim.
+258,O sol apareceu tímido depois da tempestade forte.
+259,O rapaz limpou o quintal e pintou o muro.
+260,A cliente devolveu o produto por causa do defeito.
+261,O juiz suspendeu a partida por causa da chuva.
+262,As amigas combinaram de sair juntas no sábado.
+263,O mar estava agitado durante toda a madrugada.
+264,O pai comprou um presente bonito para o filho.
+265,A florista arrumou o buquê com rosas e lírios.
+266,Os meninos correram alegres pelo campo ensolarado.
+267,O aluno esqueceu o caderno em casa novamente hoje.
+268,As nuvens cobriram o sol no meio da tarde.
+269,O vendedor mostrou o produto com detalhes e paciência.
+270,O trem apitou alto ao cruzar a pequena cidade.
+271,A cozinheira esqueceu o bolo no forno quente.
+272,O ator recebeu aplausos de pé após o espetáculo.
+273,As ondas batiam fortes nas pedras da praia.
+274,O cachorro correu atrás da bola pelo quintal.
+275,A moça lavou o carro e limpou os vidros.
+276,Os turistas fotografaram o pôr do sol no deserto.
+277,O político discursou sobre economia durante o evento.
+278,O artista pintou um quadro inspirado na natureza.
+279,As crianças assistiram ao filme com muita atenção.
+280,O gato dormia tranquilo sobre o tapete da sala.
+281,O juiz leu a sentença em voz alta.
+282,O eletricista consertou a fiação com muito cuidado.
+283,As meninas organizaram a festa surpresa para a amiga.
+284,O garçom trouxe a sobremesa antes do café.
+285,O rio corria calmo entre as montanhas verdejantes.
+286,A moça esperava o ônibus na esquina da praça.
+287,O menino escondeu o presente dentro da gaveta.
+288,A mãe vestiu o filho com uma blusa azul.
+289,O time venceu a partida com três gols de diferença.
+290,As folhas caíam lentamente das árvores secas.
+291,O cachorro dormiu a tarde inteira no sofá.
+292,O fazendeiro alimentou os cavalos antes do amanhecer.
+293,As meninas correram na chuva rindo de alegria.
+294,O médico examinou o paciente com atenção e cuidado.
+295,O carteiro perdeu o caminho durante a entrega.
+296,As estrelas surgiram no céu logo após o pôr do sol.
+297,O policial ajudou a senhora a atravessar a rua.
+298,A banda ensaiava novas músicas para o próximo show.
+299,O pintor decorou a parede com desenhos coloridos.
+300,A professora distribuiu as provas corrigidas para os alunos.
+301,A professora explicou detalhadamente o conteúdo novo para toda a turma.
+302,O cachorro correu animado quando viu o dono chegando em casa.
+303,As crianças brincaram felizes no parque até o sol começar a se pôr.
+304,O vento soprou forte e derrubou várias árvores na estrada principal.
+305,Meu pai limpou o carro e lavou a garagem inteira ontem.
+306,A cozinheira preparou uma refeição deliciosa para toda a família reunida.
+307,O cantor emocionou o público com sua voz suave e poderosa.
+308,As luzes da cidade refletiam no rio calmo durante a noite.
+309,O mecânico consertou o motor do carro com rapidez e eficiência.
+310,O aluno estudou durante horas para conseguir uma boa nota.
+311,A bailarina apresentou um espetáculo encantador no teatro lotado da cidade.
+312,O carteiro entregou as cartas atrasadas por causa da forte chuva.
+313,O bebê dormiu profundamente após o banho quente e o leite.
+314,A chuva começou no final da tarde e durou a noite inteira.
+315,O fazendeiro plantou novas sementes esperando uma boa colheita no verão.
+316,A enfermeira cuidou dos pacientes com muita paciência e dedicação diária.
+317,Os turistas caminharam pelas ruas antigas admirando a arquitetura colonial.
+318,A banda ensaiou as músicas novas para o show de domingo.
+319,O escritor publicou seu primeiro livro depois de anos de trabalho.
+320,As ondas do mar batiam nas pedras com força e barulho intenso.
+321,O juiz leu a sentença final diante de todos os presentes.
+322,A secretária digitou os relatórios e enviou todos os e-mails importantes.
+323,Os alunos participaram animados da gincana esportiva promovida pela escola.
+324,O professor revisou cada questão antes de entregar as provas corrigidas.
+325,O vendedor ofereceu descontos especiais durante a liquidação de fim de ano.
+326,As nuvens cobriram o céu rapidamente anunciando uma tempestade forte.
+327,O rapaz lavou a moto e encerou com muito capricho.
+328,A cozinheira esqueceu o bolo no forno e ele acabou queimando.
+329,Os bombeiros chegaram rápido e apagaram o incêndio no prédio antigo.
+330,A moça comprou flores coloridas para enfeitar a mesa do jantar.
+331,O policial ajudou o motorista a trocar o pneu furado da van.
+332,O aluno apresentou o projeto com clareza e respondeu a todas as perguntas.
+333,O vento gelado atravessava as frestas das janelas durante a madrugada.
+334,A avó contou antigas histórias da família enquanto preparava o café.
+335,Os atletas treinaram intensamente para a competição regional da próxima semana.
+336,O carteiro se atrasou por causa do trânsito intenso na avenida principal.
+337,O artista desenhou um retrato realista usando apenas lápis e carvão.
+338,A professora distribuiu os trabalhos corrigidos e comentou os principais erros.
+339,As crianças correram no gramado molhado após a chuva refrescante.
+340,O motorista esperou o sinal abrir enquanto ouvia música no carro.
+341,O juiz analisou cuidadosamente os documentos antes de dar o veredito final.
+342,A mãe preparou o lanche das crianças antes delas irem à escola.
+343,O carteiro deixou o pacote na portaria porque ninguém estava em casa.
+344,A menina pintou o quadro com cores vibrantes e traços delicados.
+345,O fazendeiro alimentou os cavalos e limpou o celeiro antes do almoço.
+346,O bebê riu alto quando o pai fez caretas engraçadas para ele.
+347,A aluna apresentou o seminário com confiança e recebeu muitos elogios.
+348,O vento espalhou as folhas secas pelo quintal da vizinha.
+349,O guarda observava atento o movimento intenso na porta do estádio.
+350,A médica receitou um novo remédio para aliviar as dores do paciente.
+351,O aluno esqueceu o caderno e pediu uma folha emprestada ao colega.
+352,A chuva parou repentinamente e o sol apareceu entre as nuvens.
+353,O pescador jogou a rede no rio e esperou pacientemente o resultado.
+354,O chefe elogiou o trabalho da equipe durante a reunião de hoje.
+355,O professor explicou o exercício passo a passo para os alunos entenderem.
+356,O menino construiu um castelo de areia na beira do mar.
+357,As meninas combinaram de ir ao cinema depois da aula.
+358,O pintor reformou toda a parede usando tinta branca e azul.
+359,O mecânico trocou o óleo e ajustou os freios do carro.
+360,A vendedora atendeu os clientes com simpatia e ofereceu várias opções.
+361,A diretora agradeceu a presença de todos na cerimônia de formatura.
+362,O cantor lançou um novo álbum com canções inéditas e emocionantes.
+363,O carteiro entregou um pacote vindo do exterior com etiqueta vermelha.
+364,As crianças desenharam no chão com giz colorido durante o recreio.
+365,O médico avaliou o exame e marcou uma nova consulta de retorno.
+366,O gato observava curioso o peixe nadando dentro do aquário grande.
+367,O fazendeiro recolheu as frutas maduras e levou-as para o mercado.
+368,A noiva escolheu um vestido elegante e simples para o casamento civil.
+369,Os alunos organizaram uma feira de ciências com projetos inovadores.
+370,O ator interpretou o personagem com emoção e impressionou o público presente.
+371,O cachorro encontrou o brinquedo perdido debaixo do sofá da sala.
+372,A cozinheira fritou os pastéis e preparou o molho especial para acompanhar.
+373,O vendedor mostrou as vantagens do produto e convenceu o cliente rapidamente.
+374,O vento frio soprou do sul e trouxe nuvens carregadas de chuva.
+375,O carteiro tocou a campainha, mas ninguém apareceu para atender.
+376,O aluno anotou tudo o que o professor explicou durante a aula.
+377,O cantor ensaiou por horas antes de subir ao palco principal.
+378,As formigas trabalhavam juntas carregando folhas maiores que seus corpos.
+379,A chuva caiu forte e molhou completamente o quintal de casa.
+380,O guarda orientou os carros durante o congestionamento na avenida central.
+381,O jardineiro podou as árvores e varreu as folhas secas do chão.
+382,O carteiro perdeu o caminho e chegou atrasado à entrega da manhã.
+383,A professora pediu silêncio e começou a explicar a nova lição.
+384,O cachorro pulou o muro e correu para a rua movimentada.
+385,O escritor recebeu um prêmio importante por seu último romance publicado.
+386,O menino guardou os brinquedos antes de sair para brincar fora.
+387,A aluna estudou matemática e revisou a matéria de português também.
+388,O vento balançava as cortinas e refrescava o ambiente da sala.
+389,O professor corrigiu as provas e lançou as notas no sistema online.
+390,O pescador saiu cedo para aproveitar o nascer do sol no mar.
+391,A enfermeira trocou o curativo e verificou a pressão do paciente.
+392,O motorista estacionou o carro em frente à padaria da esquina.
+393,As nuvens pesadas anunciaram chuva logo após o almoço de domingo.
+394,O bebê começou a andar sozinho e deixou todos encantados com o progresso.
+395,O chefe pediu um relatório completo sobre as vendas do último mês.
+396,O aluno copiou o texto e destacou as palavras mais importantes.
+397,A cantora ensaiou com a banda para o show no teatro municipal.
+398,O carteiro subiu as escadas e deixou a encomenda na portaria.
+399,A moça comprou frutas frescas no mercado logo pela manhã.
+400,O vento espalhou os papéis que estavam sobre a mesa do escritório.
+401,O cachorro latiu alto quando ouviu passos vindo do portão.
+402,O pintor misturou as cores até encontrar o tom desejado.
+403,O médico recomendou repouso absoluto durante pelo menos três dias seguidos.
+404,O professor orientou os alunos sobre o tema da próxima redação.
+405,O bebê acordou chorando com fome no meio da madrugada.
+406,A cozinheira testou uma nova receita de pão com ervas frescas.
+407,O mecânico ajustou a embreagem e verificou o nível do óleo.
+408,O motorista buzina sempre que alguém atravessa fora da faixa.
+409,O aluno terminou o trabalho e enviou o arquivo por e-mail.
+410,O juiz analisou as provas e declarou o réu culpado no tribunal.
+411,A enfermeira registrou as informações do paciente no prontuário eletrônico.
+412,O carteiro trouxe uma carta antiga com selo raro do exterior.
+413,O atleta lesionou o joelho durante o treino da tarde de ontem.
+414,A professora organizou um debate sobre meio ambiente na próxima semana.
+415,O cachorro se escondeu debaixo da cama por causa dos fogos.
+416,A chuva forte derrubou várias árvores na estrada que leva à cidade.
+417,O menino empinou pipa no campo aberto até o pôr do sol.
+418,A avó assou biscoitos e encheu a casa com cheiro doce.
+419,O carteiro entregou o pacote errado na casa do vizinho da frente.
+420,A diretora parabenizou os alunos pelo esforço e comprometimento no projeto.
+421,O vendedor explicou o funcionamento do produto e ofereceu garantia estendida.
+422,O gato subiu no armário e derrubou um vaso de flores.
+423,O motorista ligou o rádio e seguiu pela estrada vazia ao amanhecer.
+424,A cantora gravou um videoclipe emocionante para divulgar sua nova música.
+425,As meninas dançaram animadas durante a festa de aniversário da amiga.
+426,O carteiro recolheu todas as correspondências acumuladas do fim de semana.
+427,A enfermeira aplicou a vacina e registrou o horário da aplicação.
+428,O cachorro encontrou o osso enterrado no quintal depois de cavar bastante.
+429,O fazendeiro ordenhou as vacas e guardou o leite na geladeira.
+430,O aluno esqueceu o celular na biblioteca e voltou para buscá-lo.
+431,O carteiro bateu à porta, mas ninguém apareceu para atender.
+432,A professora elogiou a turma pelo bom comportamento durante toda a semana.
+433,O motorista seguiu devagar por causa do nevoeiro denso na estrada.
+434,A cozinheira preparou sobremesas diferentes para agradar todos os convidados.
+435,O atleta correu os dez quilômetros em tempo recorde surpreendente.
+436,A avó contou uma história engraçada para as netas antes de dormir.
+437,O carteiro esqueceu uma correspondência importante dentro do carro da empresa.
+438,O bebê sorriu quando ouviu a música tocar na televisão.
+439,A aluna copiou as anotações e revisou a matéria antes da prova.
+440,O pescador voltou para casa com uma cesta cheia de peixes.
+441,A cantora agradeceu o público e prometeu retornar em breve.
+442,O carteiro enfrentou a chuva forte para entregar todas as cartas.
+443,O jardineiro regou as plantas novas e adubou o canteiro principal.
+444,O professor planejou uma atividade prática para reforçar o conteúdo estudado.
+445,O aluno chegou atrasado por causa do trânsito intenso na avenida.
+446,A enfermeira ajudou o médico durante a cirurgia de emergência noturna.
+447,O carteiro distribuiu folhetos da prefeitura sobre o novo projeto ambiental.
+448,A cozinheira cortou os legumes e preparou uma sopa quente deliciosa.
+449,O cachorro pulou no colo da dona quando ela chegou cansada.
+450,O mecânico verificou o motor e recomendou a troca da bateria.
+451,O carteiro encontrou um cachorro bravo no portão e preferiu voltar depois.
+452,A moça costurou um vestido novo usando tecido azul de seda.
+453,O professor comentou os erros e explicou novamente o exercício difícil.
+454,O carteiro cumprimentou o porteiro e seguiu entregando as correspondências.
+455,A enfermeira mediu a temperatura e aplicou o remédio na criança.
+456,O fazendeiro recolheu os ovos das galinhas antes do pôr do sol.
+457,O aluno pesquisou sobre o tema e montou uma ótima apresentação.
+458,A cozinheira decorou o bolo com frutas frescas e cobertura de chocolate.
+459,O motorista estacionou o caminhão cuidadosamente no pátio da transportadora.
+460,A menina desenhou uma casa colorida com lápis de cera novos.
+461,O carteiro se protegeu da chuva com um guarda-chuva azul pequeno.
+462,O bebê chorou alto quando a mãe saiu do quarto de repente.
+463,O atleta praticou diariamente para melhorar o tempo nas competições oficiais.
+464,O pintor reformou a fachada da casa usando tinta amarela brilhante.
+465,A professora preparou slides explicativos para facilitar o aprendizado dos alunos.
+466,O carteiro anotou o endereço errado e precisou voltar para corrigir.
+467,O cachorro cavou um buraco grande no jardim atrás do galinheiro.
+468,O mecânico ajustou os freios e trocou a correia do motor.
+469,A enfermeira limpou o ferimento e colocou um novo curativo protetor.
+470,O aluno apresentou o trabalho com confiança e respondeu todas as perguntas.
+471,O carteiro esperou alguns minutos antes de deixar a correspondência na caixa.
+472,O escritor iniciou um novo romance inspirado em acontecimentos reais recentes.
+473,A cozinheira experimentou a sopa e adicionou mais sal e tempero.
+474,O motorista freou bruscamente para evitar o acidente no cruzamento movimentado.
+475,O carteiro conferiu o endereço duas vezes antes de entregar o pacote.
+476,A menina correu para abraçar o pai que voltava de viagem.
+477,O jardineiro cortou a grama e aparou as plantas do quintal.
+478,A professora revisou os textos e corrigiu pequenos erros de ortografia.
+479,O cachorro roeu o sapato novo deixado na varanda da casa.
+480,O carteiro deixou o aviso de entrega pendurado na porta da frente.
+481,A aluna leu o texto em voz alta para toda a turma.
+482,O fazendeiro separou os bezerros e alimentou as vacas com ração especial.
+483,O mecânico limpou o carburador e testou o funcionamento do motor.
+484,A enfermeira verificou o pulso e mediu a pressão arterial do idoso.
+485,O carteiro encontrou uma carteira perdida e entregou na delegacia local.
+486,O aluno guardou o material e saiu apressado para o intervalo.
+487,A cozinheira arrumou a mesa com pratos, copos e talheres brilhantes.
+488,O motorista acelerou o carro e ultrapassou o caminhão na estrada.
+489,A moça sorriu quando recebeu a boa notícia por telefone.
+490,O carteiro distribuiu panfletos informativos sobre campanhas de vacinação infantil.
+491,A professora leu um poema inspirador antes de encerrar a aula de literatura.
+492,O atleta respirou fundo e concentrou-se antes da corrida final.
+493,O bebê balançava os braços enquanto ouvia a música alegre tocar.
+494,O carteiro perdeu o mapa das entregas e precisou pedir ajuda.
+495,O fazendeiro construiu um novo celeiro para guardar os grãos colhidos.
+496,A enfermeira ajudou o paciente a levantar e caminhar pelo corredor.
+497,O motorista conferiu os pneus e abasteceu o carro antes da viagem.
+498,A cozinheira acendeu o forno e esperou a massa crescer devagar.
+499,O carteiro avisou que haveria atraso na entrega por causa da chuva.
+500,Enquanto as luzes da cidade piscavam ao longe, Sofia observava silenciosamente o céu estrelado.
