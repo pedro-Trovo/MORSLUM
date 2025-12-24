@@ -1,0 +1,21 @@
+# Ambientes e dependências
+node_modules/
+dist/
+venv/
+.venv/
+.env
+
+# Lixo e cache
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# Docker e outros
+docker-data/
+
+# Editor/IDE
+.vscode/
+.idea/
+
