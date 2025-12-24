@@ -7,6 +7,8 @@ services:
     ports:
       - "5000:5000"
     restart: unless-stopped
+    env_file:
+      - ./backend/.env   # lê o .env criado pelo setup_env.py
     environment:
       - PYTHONUNBUFFERED=1
     networks:
@@ -16,10 +18,12 @@ services:
     build: ./frontend
     container_name: projeto-ic-frontend
     ports:
-      - "3000:80"      
+      - "3000:80"
     depends_on:
       - backend
     restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://backend:5000
     networks:
       - app-network
 
