@@ -1,0 +1,21 @@
+tag,rotulo_pt
+ADJ,Adjetivo
+ADP,Preposição
+ADV,Advérbio
+AUX,Verbo auxiliar
+CONJ,Conjunção
+CCONJ,Conjunção coordenativa
+DET,Determinante
+INTJ,Interjeição
+NOUN,Substantivo
+NUM,Numeral
+PART,Partícula
+PRON,Pronome
+PROPN,Nome próprio
+PUNCT,Pontuação
+SCONJ,Conjunção subordinativa
+SYM,Símbolo
+VERB,Verbo
+X,Outro
+EOL,Fim de linha
+SPACE,Espaço
