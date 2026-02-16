@@ -1,16 +1,22 @@
 version: "3.9"
 
 services:
+  redis:
+    image: redis:7-alpine
+    container_name: projeto-ic-redis
+    restart: unless-stopped
+    networks:
+      - app-network
+
   backend:
     build: ./backend
     container_name: projeto-ic-backend
     ports:
       - "5000:5000"
-    restart: unless-stopped
     env_file:
       - ./backend/.env
-    environment:
-      - PYTHONUNBUFFERED=1
+    depends_on:
+      - redis
     networks:
       - app-network
 
@@ -21,7 +27,6 @@ services:
       - "3000:80"
     depends_on:
       - backend
-    restart: unless-stopped
     environment:
       - VITE_API_URL=http://backend:5000
     networks:
