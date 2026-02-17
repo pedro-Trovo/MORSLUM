@@ -1,0 +1,21 @@
+.menu-wrapper {
+  position: relative;
+}
+
+/* Ajustes visuais SEM quebrar o tema Lara */
+.menu-bar-custom {
+  border-radius: 0;
+  border: none;
+  padding: 10px 16px;
+}
+
+/* Título centralizado */
+.menu-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 1.5rem;
+  pointer-events: none;
+}
