@@ -9,19 +9,19 @@ services:
       - app-network
 
   backend:
-    build: ./backend
+    build: ./back-end
     container_name: projeto-ic-backend
     ports:
       - "5000:5000"
     env_file:
-      - ./backend/.env
+      - ./back-end/.env
     depends_on:
       - redis
     networks:
       - app-network
 
   frontend:
-    build: ./frontend
+    build: ./front-end
     container_name: projeto-ic-frontend
     ports:
       - "3000:80"
