@@ -5,11 +5,10 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
-
 RUN python -m spacy download pt_core_news_sm
 
-COPY src/ ./src
+COPY . .
 
 EXPOSE 5000
 
-CMD ["python", "src/app.py"]
+CMD ["python", "app.py"]
