@@ -9,3 +9,20 @@ def classificar_frase(frase, remover_pontuacao=True):
         return [t.pos_ for t in doc if t.pos_ != "PUNCT"]
 
     return [t.pos_ for t in doc]
+
+def classificar_frase_detalhada(frase, remover_pontuacao=True):
+    doc = nlp(frase)
+
+    tokens = []
+    for t in doc:
+        if remover_pontuacao and t.pos_ == "PUNCT":
+            continue
+
+        tokens.append({
+            "texto": t.text,
+            "pos": t.pos_,
+            "dep": t.dep_,
+            "head": t.head.text
+        })
+
+    return tokens
