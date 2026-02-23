@@ -1,6 +1,7 @@
 from flask import Blueprint, jsonify, request, session
 from src.services.pipeline import gerar_questao
 from src.services.verificarResposta import verificar_resposta
+from src.services.analise_morfossintatica_service import analise_morfossintatica_service
 import uuid
 
 
@@ -44,3 +45,14 @@ def responder():
 
     return jsonify(resultado)
 
+@api_bp.route("/analisador-morfossintatico", methods=["POST"])
+def analisador_morfossintatico():
+    data = request.get_json()
+    frase = data.get("frase")
+
+    if not frase:
+        return jsonify({"erro": "Frase é obrigatória"}), 400
+
+    resultado = analise_morfossintatica_service(frase)
+
+    return jsonify(resultado)
