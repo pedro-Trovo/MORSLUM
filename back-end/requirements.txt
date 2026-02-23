@@ -4,3 +4,5 @@ flask-cors
 redis
 spacy
 python-dotenv
+pillow
+cairosvg
