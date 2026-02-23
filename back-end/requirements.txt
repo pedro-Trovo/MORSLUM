@@ -4,4 +4,3 @@ flask-cors
 redis
 spacy
 python-dotenv
-gunicorn
