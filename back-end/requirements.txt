@@ -6,3 +6,4 @@ spacy
 python-dotenv
 pillow
 cairosvg
+
