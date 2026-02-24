@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import axios from "axios";
 import { Toast } from 'primereact/toast';
 import { ProgressSpinner } from 'primereact/progressspinner';
+import { quizService } from "../../service/quizService"; // 👈 IMPORT CORRETO
 
 import Menu from "../../components/menu/menu";
 import QuizHeader from "../../components/quiz/QuizHeader";
@@ -9,8 +9,6 @@ import QuizSVG from "../../components/quiz/QuizSVG";
 import QuizAlternativas from "../../components/quiz/QuizAlternativas";
 import QuizActions from "../../components/quiz/QuizActions";
 import QuizFooter from "../../components/quiz/QuizFooter";
-
-axios.defaults.withCredentials = true;
 
 export default function Quiz() {
   const [questao, setQuestao] = useState(null);
@@ -24,15 +22,21 @@ export default function Quiz() {
 
   const carregarQuestao = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/quiz");
-      setQuestao(res.data);
-      setAlternativas(res.data.alternativas);
-      setQuestaoId(res.data.questao_id);
+      const data = await quizService.getQuestao(); // 👈 USANDO SERVICE
+      setQuestao(data);
+      setAlternativas(data.alternativas);
+      setQuestaoId(data.questao_id);
       setResultado(null);
       setRespostaUsuario(null);
       setAlternativaSelecionada(null);
     } catch (error) {
       console.error("Erro ao carregar questão:", error);
+      toast.current?.show({
+        severity: 'error',
+        summary: 'Erro',
+        detail: 'Erro ao carregar questão',
+        life: 3000
+      });
     }
   };
 
@@ -48,19 +52,16 @@ export default function Quiz() {
     }
     
     try {
-      const res = await axios.post("http://localhost:5000/resposta", {
-        questao_id: questaoId,
-        resposta_usuario: alternativaSelecionada
-      });
+      const data = await quizService.responder(questaoId, alternativaSelecionada); // 👈 USANDO SERVICE
 
-      setResultado(res.data);
+      setResultado(data);
       setRespostaUsuario(alternativaSelecionada);
       setAlternativaSelecionada(null);
       
       toast.current?.show({
-        severity: res.data.correta ? 'success' : 'error',
-        summary: res.data.correta ? 'Correto!' : 'Incorreto',
-        detail: res.data.feedback,
+        severity: data.correta ? 'success' : 'error',
+        summary: data.correta ? 'Correto!' : 'Incorreto',
+        detail: data.feedback,
         life: 5000
       });
     } catch (error) {

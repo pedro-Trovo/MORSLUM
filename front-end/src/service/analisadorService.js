@@ -1,14 +1,8 @@
-import axios from "axios";
+import api from "./api";
 
 export const analisadorService = {
   analisarFrase(frase) {
-    return axios.post("http://localhost:5000/analisador", {
-      frase
-    }, {
-      withCredentials: true,
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then(res => res.data);
+    return api.post("/analisador", { frase })
+      .then(res => res.data);
   }
 };
