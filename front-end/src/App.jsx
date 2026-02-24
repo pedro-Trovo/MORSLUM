@@ -1,14 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/home";
 import Quiz from "./pages/quiz/quiz";
+import Analisador from "./pages/analisador/analisador";
 
-export default function App() {
+function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/analisador" element={<Analisador />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
+
+export default App;
