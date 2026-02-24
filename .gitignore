@@ -12,6 +12,13 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+
+# Cache do Vite - ADICIONE ESTAS LINHAS!
+.vite/
+front-end/.vite/
+**/.vite/
+
+
 # Docker e outros
 docker-data/
 
