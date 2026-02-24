@@ -12,6 +12,7 @@ export default function Menu({ title }) {
   const items = [
     { label: "Menu", icon: "pi pi-home", command: () => navigate("/") },
     { label: "Quiz", icon: "pi pi-pen-to-square", command: () => navigate("/quiz") },
+    { label: "Analisador", icon: "pi pi-sitemap", command: () => navigate("/analisador") },
     { label: "Sobre", icon: "pi pi-info-circle", command: () => navigate("/sobre") }
   ];
 
