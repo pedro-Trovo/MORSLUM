@@ -42,4 +42,8 @@ CORS(app, supports_credentials=True)
 app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000)
+    if APP_MODE == "desktop":
+        app.run(host="127.0.0.1", port=5000)
+    else:
+        # docker / dev
+        app.run(host="0.0.0.0", port=5000)
