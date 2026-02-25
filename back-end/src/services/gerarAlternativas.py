@@ -16,7 +16,7 @@ def gerarAlternativas(frase):
         if random.random() < 0.7:
             i, j = random.sample(range(len(alternativa_raw)), 2)
             alternativa_raw[i], alternativa_raw[j] = alternativa_raw[j], alternativa_raw[i]
-        else:  
+        else:
             for _ in range(2):
                 i, j = random.sample(range(len(alternativa_raw)), 2)
                 alternativa_raw[i], alternativa_raw[j] = alternativa_raw[j], alternativa_raw[i]
