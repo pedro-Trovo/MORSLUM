@@ -165,8 +165,8 @@ export default function Sobre() {
           </div>
           <p className="text-lg text-gray-700 line-height-3">
             O <strong>MORSLUM</strong> (MORphoSyntaxis LaboratoriUM) é uma plataforma voltada à análise morfossintática da língua portuguesa, 
-            desenvolvido como Projeto de Pesquisa do Programa de Iniciação Científica da FATEC Ipiranga, com foco educacional, experimental e demonstrativo, 
-            para auxiliar no ensino e aprendizado da morfossintática da língua portuguesa.
+            desenvolvida como Projeto de Pesquisa no Programa de Iniciação Científica da FATEC Ipiranga, com foco educacional, experimental e demonstrativo, 
+            visando auxiliar no ensino e na aprendizagem da morfossintática da língua portuguesa.
           </p>
           <p className="text-lg text-gray-700 line-height-3">
             Utilizando técnicas de Processamento de Linguagem Natural (PLN) e a biblioteca spaCy, o sistema é capaz de 
@@ -242,7 +242,7 @@ export default function Sobre() {
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-github text-xl text-gray-500"></i>
                   <a href="https://github.com/pedro-Trovo/MORSLUM" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    github.com/pedrotrovo
+                    Repositório do Projeto
                   </a>
                 </div>
               </div>
@@ -253,13 +253,13 @@ export default function Sobre() {
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-envelope text-xl text-gray-500"></i>
                   <a href="mailto:pedroramostrovo@gmail.com" className="text-blue-600 hover:underline">
-                    pedro@example.com
+                    E-mail
                   </a>
                 </div>
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-linkedin text-xl text-gray-500"></i>
                   <a href="https://www.linkedin.com/in/pedro-trovo-link/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    linkedin.com/in/pedrotrovo
+                    Linkedin
                   </a>
                 </div>
               </div>

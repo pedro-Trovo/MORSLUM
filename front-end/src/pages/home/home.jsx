@@ -14,8 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="text-center mt-5 mb-3">
         <h1 className="text-5xl font-bold text-gray-800 mb-2">MORSLUM</h1>
-        <h3 className="text-2xl text-gray-600">Estudo Morfossintática Interativo</h3>
-        <p className="text-gray-500 mt-2">Explore a estrutura da língua portuguesa com tecnologia PLN</p>
+        <h3 className="text-2xl text-gray-600">Estudo Morfossintático Interativo da Língua Portuguesa</h3>
         <Divider className="w-6 mx-auto" />
       </div>
 
