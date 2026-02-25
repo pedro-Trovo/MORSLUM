@@ -7,7 +7,7 @@ export default function HomeCardAnalisador() {
 
   return (
     <Card title="Analisador Morfossintático" className="w-25rem text-center">
-      <p>Analise frases com classificação e árvore sintática.</p>
+      <p>Digite qualquer frase e veja os detalhes de sua classificação morfossintática e árvore de dependência.</p>
 
       <Button
         label="Analisar Frase"

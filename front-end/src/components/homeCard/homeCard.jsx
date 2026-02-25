@@ -7,10 +7,10 @@ export default function HomeCard() {
 
   return (
     <Card title="Quiz" className="w-25rem text-center">
-      <p>Teste seus conhecimentos!</p>
+      <p>Teste seus conhecimentos de análise morfossintática com perguntas geradas automaticamente.</p>
 
       <Button
-        label="Fazer Quiz"
+        label="Começar Quiz"
         icon="pi pi-play"
         onClick={() => navigate("/quiz")}
       />

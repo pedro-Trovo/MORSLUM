@@ -11,67 +11,40 @@ import {
   SiDocker, 
   SiPrimereact,
   SiRedis,
-  SiElectron
+  SiElectron,
+  SiJavascript,  
+  SiVite      
 } from "react-icons/si";
 
 export default function Sobre() {
  
   const tecnologias = [
-    { 
-      nome: "React", 
-      icone: SiReact, 
-      cor: "bg-blue-500", 
-      link: "https://react.dev/",
-      descricao: "Biblioteca para interfaces de usuário"
-    },
-    { 
-      nome: "Flask", 
-      icone: SiFlask, 
-      cor: "bg-green-500", 
-      link: "https://flask.palletsprojects.com/",
-      descricao: "Microframework web em Python"
-    },
-    { 
-      nome: "Python", 
-      icone: SiPython, 
-      cor: "bg-yellow-500", 
-      link: "https://www.python.org/",
-      descricao: "Linguagem de programação"
-    },
-    { 
-      nome: "Docker", 
-      icone: SiDocker, 
-      cor: "bg-cyan-500", 
-      link: "https://www.docker.com/",
-      descricao: "Plataforma de containerização"
-    },
-    { 
-      nome: "PrimeReact", 
-      icone: SiPrimereact, 
-      cor: "bg-indigo-500", 
-      link: "https://primereact.org/",
-      descricao: "Componentes UI para React"
-    },
-    { 
-      nome: "Redis", 
-      icone: SiRedis, 
-      cor: "bg-red-500", 
-      link: "https://redis.io/",
-      descricao: "Banco de dados em memória"
-    },
-    { nome: "Electron", icone: SiElectron, cor: "bg-blue-800", link: "https://www.electronjs.org/", descricao: "Framework para aplicações desktop" } 
-  ];
+  
+  { nome: "React", icone: SiReact, cor: "bg-blue-500", link: "https://react.dev/", descricao: "Biblioteca para interfaces de usuário" },
+  { nome: "Vite", icone: SiVite, cor: "bg-purple-500", link: "https://vitejs.dev/", descricao: "Build tool e servidor de desenvolvimento" },
+  { nome: "JavaScript", icone: SiJavascript, cor: "bg-yellow-500", link: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript", descricao: "Linguagem de programação" },
+  { nome: "PrimeReact", icone: SiPrimereact, cor: "bg-indigo-500", link: "https://primereact.org/", descricao: "Componentes UI para React" },
+  
+  
+  { nome: "Python", icone: SiPython, cor: "bg-yellow-600", link: "https://www.python.org/", descricao: "Linguagem de programação" },
+  { nome: "Flask", icone: SiFlask, cor: "bg-green-500", link: "https://flask.palletsprojects.com/", descricao: "Microframework web em Python" },
+  { nome: "Redis", icone: SiRedis, cor: "bg-red-500", link: "https://redis.io/", descricao: "Banco de dados em memória" },
+  
+  
+  { nome: "Docker", icone: SiDocker, cor: "bg-cyan-500", link: "https://www.docker.com/", descricao: "Plataforma de containerização" },
+  { nome: "Electron", icone: SiElectron, cor: "bg-blue-800", link: "https://www.electronjs.org/", descricao: "Framework para aplicações desktop" }
+];
 
   const funcionalidades = [
     {
       titulo: "Analisador Morfossintático",
-      descricao: "Analisa frases em português e retorna a classificação gramatical de cada palavra (substantivo, verbo, adjetivo, etc.) e gera uma árvore de dependências sintáticas.",
+      descricao: "Analisa frases em português e retorna a classificação gramatical de cada palavra (substantivo, verbo, adjetivo, etc.) e gera uma árvore de dependências.",
       icone: "pi pi-search",
       cor: "text-blue-500"
     },
     {
       titulo: "Quiz Interativo",
-      descricao: "Teste seus conhecimentos de morfossintática com perguntas geradas automaticamente. Cada questão apresenta uma árvore sintática e alternativas sobre a classificação das palavras.",
+      descricao: "Teste seus conhecimentos de análise morfossintática com perguntas geradas automaticamente. Cada questão apresenta uma árvore de dependências e alternativas para a classificação da frase.",
       icone: "pi pi-play",
       cor: "text-green-500"
     }
@@ -79,55 +52,61 @@ export default function Sobre() {
 
   // TIMELINE ATUALIZADA CONFORME O CRONOGRAMA DO PRÉ-PROJETO
   const eventos = [
-    { 
-      status: "Revisão teórica sobre gramática e PLN", 
-      data: "Mês 1-3", 
-      icone: "pi pi-book", 
-      cor: "#4CAF50" 
-    },
-    { 
-      status: "Estudo de estruturas sintáticas e conjunções", 
-      data: "Mês 2-4", 
-      icone: "pi pi-sitemap", 
-      cor: "#2196F3" 
-    },
-    { 
-      status: "Pesquisa sobre spaCy e métodos de análise", 
-      data: "Mês 3-5", 
-      icone: "pi pi-search", 
-      cor: "#FF9800" 
-    },
-    { 
-      status: "Coleta e organização de frases", 
-      data: "Mês 4-6", 
-      icone: "pi pi-database", 
-      cor: "#9C27B0" 
-    },
-    { 
-      status: "Desenvolvimento do Backend", 
-      data: "Mês 6-10", 
-      icone: "pi pi-server", 
-      cor: "#607D8B" 
-    },
-    { 
-      status: "Desenvolvimento do Frontend", 
-      data: "Mês 7-11", 
-      icone: "pi pi-mobile", 
-      cor: "#E91E63" 
-    },
-    { 
-      status: "Testes, validação e ajustes finais", 
-      data: "Mês 9-11", 
-      icone: "pi pi-check-circle", 
-      cor: "#00BCD4" 
-    },
-    { 
-      status: "Elaboração do relatório final", 
-      data: "Mês 10-11", 
-      icone: "pi pi-file", 
-      cor: "#F44336" 
-    }
-  ];
+  { 
+    status: "Revisão teórica sobre gramática e PLN", 
+    data: "Mês 1", 
+    icone: "pi pi-book", 
+    cor: "#4CAF50" 
+  },
+  { 
+    status: "Estudo de estruturas sintáticas e conjunções", 
+    data: "Mês 2", 
+    icone: "pi pi-sitemap", 
+    cor: "#2196F3" 
+  },
+  { 
+    status: "Pesquisa sobre spaCy e métodos de análise", 
+    data: "Mês 2", 
+    icone: "pi pi-search", 
+    cor: "#FF9800" 
+  },
+  { 
+    status: "Coleta e organização de frases", 
+    data: "Mês 3", 
+    icone: "pi pi-database", 
+    cor: "#9C27B0" 
+  },
+  { 
+    status: "Desenvolvimento do Backend", 
+    data: "Mês 4-6", 
+    icone: "pi pi-server", 
+    cor: "#607D8B" 
+  },
+  { 
+    status: "Desenvolvimento do Frontend", 
+    data: "Mês 7-9", 
+    icone: "pi pi-mobile", 
+    cor: "#E91E63" 
+  },
+  { 
+    status: "Empacotamento com Electron (App Desktop)", 
+    data: "Mês 10", 
+    icone: "pi pi-desktop", 
+    cor: "#3B82F6" 
+  },
+  { 
+    status: "Testes, validação e ajustes finais", 
+    data: "Mês 10-11", 
+    icone: "pi pi-check-circle", 
+    cor: "#00BCD4" 
+  },
+  { 
+    status: "Elaboração do relatório final", 
+    data: "Mês 10-11", 
+    icone: "pi pi-file", 
+    cor: "#F44336" 
+  }
+];
 
   // Template do timeline
   const timelineTemplate = (item) => {
@@ -262,7 +241,7 @@ export default function Sobre() {
                 </div>
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-github text-xl text-gray-500"></i>
-                  <a href="https://github.com/pedrotrovo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  <a href="https://github.com/pedro-Trovo/MORSLUM" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                     github.com/pedrotrovo
                   </a>
                 </div>
@@ -273,13 +252,13 @@ export default function Sobre() {
               <div className="flex flex-column gap-3">
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-envelope text-xl text-gray-500"></i>
-                  <a href="mailto:pedro@example.com" className="text-blue-600 hover:underline">
+                  <a href="mailto:pedroramostrovo@gmail.com" className="text-blue-600 hover:underline">
                     pedro@example.com
                   </a>
                 </div>
                 <div className="flex align-items-center gap-2">
                   <i className="pi pi-linkedin text-xl text-gray-500"></i>
-                  <a href="https://linkedin.com/in/pedrotrovo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  <a href="https://www.linkedin.com/in/pedro-trovo-link/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                     linkedin.com/in/pedrotrovo
                   </a>
                 </div>
@@ -290,8 +269,7 @@ export default function Sobre() {
           <Divider />
           
           <div className="text-center text-gray-500 text-sm">
-            <p>© 2025-2026 MORSLUM</p>
-            <p>Versão 1.0.0</p>
+            <p>© 2026 MORSLUM</p>
           </div>
         </Card>
       </div>
