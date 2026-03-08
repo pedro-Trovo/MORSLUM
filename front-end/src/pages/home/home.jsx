@@ -37,7 +37,7 @@ export default function Home() {
 
       {/* Rodapé*/}
       <div className="text-center text-gray-400 text-sm mt-auto py-3 border-top-1 surface-border">
-        <p>MORSLUM © 2025-2026</p>
+        <p>MORSLUM © 2026</p>
       </div>
     </div>
   );

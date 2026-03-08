@@ -52,7 +52,7 @@ export default function Quiz() {
     }
     
     try {
-      const data = await quizService.responder(questaoId, alternativaSelecionada);
+      const data = await quizService.responder(questaoId, alternativaSelecionada, questao.resposta_correta);
       setResultado(data);
       setRespostaUsuario(alternativaSelecionada);
       setAlternativaSelecionada(null);
