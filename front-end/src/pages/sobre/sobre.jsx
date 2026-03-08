@@ -11,7 +11,6 @@ import {
   SiPython, 
   SiDocker, 
   SiPrimereact,
-  SiRedis,
   SiElectron,
   SiJavascript,  
   SiVite  
