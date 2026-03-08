@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu, globalShortcut } = require('electron'); 
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
@@ -27,7 +27,6 @@ function getBackendPath() {
 }
 
 function getFrontendPath() {
-    // Prioridade: primeiro tenta resources, depois local
     const possiblePaths = [
         path.join(process.resourcesPath, 'front-end', 'index.html'),
         path.join(path.dirname(process.execPath), 'resources', 'front-end', 'index.html'),
@@ -36,7 +35,7 @@ function getFrontendPath() {
     
     for (const p of possiblePaths) {
         if (fs.existsSync(p)) {
-            console.log('✅ Frontend encontrado em:', p);
+            console.log('Frontend encontrado em:', p);
             return p;
         }
     }
@@ -46,17 +45,41 @@ function getFrontendPath() {
 }
 
 function createWindow() {
+   
+    Menu.setApplicationMenu(null);
+
+   
+    globalShortcut.register('F5', () => {
+        console.log('Recarregando com F5');
+        mainWindow.reload();
+    });
+
+    globalShortcut.register('CommandOrControl+R', () => {
+        console.log('Recarregando com Ctrl+R');
+        mainWindow.reload();
+    });
+
+    globalShortcut.register('CommandOrControl+Shift+R', () => {
+        console.log('Force reload com Ctrl+Shift+R');
+        mainWindow.webContents.reloadIgnoringCache();
+    });
+
+    globalShortcut.register('F12', () => {
+        console.log('Abrindo DevTools com F12');
+        mainWindow.webContents.toggleDevTools();
+    });
+
     mainWindow = new BrowserWindow({
         width: 1200,
         height: 800,
         title: "MORSLUM",
-        show: false, // Começa escondida
-        backgroundColor: '#ffffff', // Fundo branco para debug
+        show: false,
+        backgroundColor: '#ffffff',
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
             devTools: true,
-            webSecurity: false // Apenas para debug
+            webSecurity: false
         },
     });
 
@@ -76,22 +99,18 @@ function createWindow() {
         return;
     }
 
-    // Tenta carregar o arquivo
     mainWindow.loadFile(frontendPath)
         .then(() => {
-            console.log('✅ Frontend carregado com sucesso!');
+            console.log('Frontend carregado com sucesso!');
             mainWindow.show();
             mainWindow.focus();
             
-            // Abre DevTools automaticamente se estiver em desenvolvimento
             if (!app.isPackaged) {
                 mainWindow.webContents.openDevTools();
             }
         })
         .catch((err) => {
-            console.error('❌ Erro ao carregar frontend:', err);
-            
-            // Mostra erro na tela
+            console.error('Erro ao carregar frontend:', err);
             mainWindow.loadURL(`data:text/html;charset=utf-8,
                 <h1 style="color:red">Erro ao carregar frontend</h1>
                 <p>${err.message}</p>
@@ -102,33 +121,30 @@ function createWindow() {
             mainWindow.webContents.openDevTools();
         });
 
-    // Evento para quando a página terminar de carregar
     mainWindow.webContents.on('did-finish-load', () => {
         console.log('📄 Página terminou de carregar');
         mainWindow.show();
     });
 
-    // Evento para erros de renderização
     mainWindow.webContents.on('did-fail-load', (event, errorCode, errorDescription) => {
-        console.error('❌ Falha no carregamento:', errorCode, errorDescription);
+        console.error('Falha no carregamento:', errorCode, errorDescription);
     });
 
-    // Evento para console do renderer
     mainWindow.webContents.on('console-message', (event, level, message, line, sourceId) => {
         console.log(`[renderer] ${message}`);
     });
 }
 
 app.whenReady().then(() => {
-    console.log('🚀 Electron pronto, iniciando backend...');
+    console.log('Electron pronto, iniciando backend...');
     
     const python = getPythonPath();
     const backend = getBackendPath();
     const backendDir = path.dirname(backend);
 
     if (fs.existsSync(python) && fs.existsSync(backend)) {
-        console.log('✅ Python encontrado em:', python);
-        console.log('✅ Backend encontrado em:', backend);
+        console.log('Python encontrado em:', python);
+        console.log('Backend encontrado em:', backend);
         
         const env = {
             ...process.env,
@@ -152,15 +168,18 @@ app.whenReady().then(() => {
         });
 
         backendProcess.on('error', (err) => {
-            console.error('❌ Erro no processo backend:', err);
+            console.error('Erro no processo backend:', err);
         });
 
-        // Pequeno delay para garantir que o backend iniciou
         setTimeout(createWindow, 2000);
     } else {
-        console.error('❌ Backend ou Python não encontrado');
-        createWindow(); // Tenta mesmo assim
+        console.error('Backend ou Python não encontrado');
+        createWindow();
     }
+});
+
+app.on('will-quit', () => {
+    globalShortcut.unregisterAll();
 });
 
 app.on('window-all-closed', () => {
