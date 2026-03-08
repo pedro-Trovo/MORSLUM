@@ -1,29 +1,31 @@
 import os
-from datetime import timedelta
+import sys
 from flask import Flask
 from flask_cors import CORS
-from flask_session import Session
-from redis import Redis
 from dotenv import load_dotenv
+
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, current_dir)
+sys.path.insert(0, parent_dir)
+
+
 from src.api.routes import api_bp
 
 load_dotenv()
 
 app = Flask(__name__)
+
+APP_MODE = os.getenv("APP_MODE", "dev")
 app.secret_key = os.getenv("SECRET_KEY")
 
-app.config["SESSION_TYPE"] = "redis"
-app.config["SESSION_REDIS"] = Redis.from_url(os.getenv("REDIS_URL"))
-app.config["SESSION_PERMANENT"] = True
-app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=30)
-app.config["SESSION_USE_SIGNER"] = True
-app.config["SESSION_KEY_PREFIX"] = "ic_session:"
-
-Session(app)
 
 CORS(app, supports_credentials=True)
-
 app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    if APP_MODE == "desktop":
+        app.run(host="127.0.0.1", port=5000, debug=False)
+    else:
+        app.run(host="0.0.0.0", port=5000, debug=True)

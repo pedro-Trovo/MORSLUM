@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Toast } from 'primereact/toast';
 import { ProgressSpinner } from 'primereact/progressspinner';
-import { quizService } from "../../service/quizService"; // 👈 IMPORT CORRETO
+import { quizService } from "../../service/quizService";
 
 import Menu from "../../components/menu/menu";
 import QuizHeader from "../../components/quiz/QuizHeader";
@@ -22,7 +22,7 @@ export default function Quiz() {
 
   const carregarQuestao = async () => {
     try {
-      const data = await quizService.getQuestao(); // 👈 USANDO SERVICE
+      const data = await quizService.getQuestao(); 
       setQuestao(data);
       setAlternativas(data.alternativas);
       setQuestaoId(data.questao_id);
@@ -52,8 +52,7 @@ export default function Quiz() {
     }
     
     try {
-      const data = await quizService.responder(questaoId, alternativaSelecionada); // 👈 USANDO SERVICE
-
+      const data = await quizService.responder(questaoId, alternativaSelecionada, questao.resposta_correta);
       setResultado(data);
       setRespostaUsuario(alternativaSelecionada);
       setAlternativaSelecionada(null);

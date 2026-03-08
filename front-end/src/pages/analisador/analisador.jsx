@@ -195,7 +195,7 @@ export default function Analisador() {
                 <div 
                   dangerouslySetInnerHTML={{ __html: resultado.arvore_svg }} 
                   style={{ 
-                    minWidth: "100%",
+                    display: "inline-block",
                     backgroundColor: "#072912",
                     borderRadius: "8px",
                     padding: "20px"

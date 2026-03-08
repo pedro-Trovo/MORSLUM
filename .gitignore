@@ -12,12 +12,19 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-
-# Cache do Vite - ADICIONE ESTAS LINHAS!
+# Cache do Vite
 .vite/
 front-end/.vite/
 **/.vite/
 
+# Electron builds
+electron/dist/
+electron/node_modules/
+electron/package-lock.json
+
+# Python embedded 
+python-embed/
+**/python-embed/
 
 # Docker e outros
 docker-data/
@@ -25,4 +32,3 @@ docker-data/
 # Editor/IDE
 .vscode/
 .idea/
-
