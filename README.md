@@ -167,6 +167,105 @@ https://morslum.vercel.app
 
 Após o download, basta executar o instalador para utilizar o aplicativo localmente.
 
+---
+# Executando o Projeto em Modo Desenvolvedor
+
+O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
+
+---
+
+## Executando com Docker
+
+### 1 — Clonar o repositório
+
+```bash
+git clone https://github.com/pedro-Trovo/MORSLUM
+cd morslum
+```
+
+### 2 — Gerar o arquivo de configuração do backend
+
+Antes de iniciar os containers é necessário gerar o arquivo `.env` do backend.
+
+```bash
+cd back-end
+python setup_env.py
+cd ..
+```
+
+Esse script irá gerar automaticamente um arquivo `.env` contendo:
+
+- `SECRET_KEY`
+- `APP_MODE`
+- `REDIS_URL`
+
+### 3 — Iniciar os containers
+
+```bash
+docker compose up --build
+```
+
+Após a inicialização:
+
+- **Frontend:** [http://localhost:3000](http://localhost:3000)
+- **Backend API:** [http://localhost:5000](http://localhost:5000)
+
+---
+
+## Executando sem Docker
+
+Caso prefira executar manualmente.
+
+### 1 — Backend
+
+Acesse a pasta:
+
+```bash
+cd back-end
+```
+
+Crie o ambiente:
+
+```bash
+python setup_env.py
+```
+
+Instale dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Execute o servidor:
+
+```bash
+python app.py
+```
+
+### 2 — Frontend
+
+Acesse a pasta:
+
+```bash
+cd front-end
+```
+
+Instale dependências:
+
+```bash
+npm install
+```
+
+Execute:
+
+```bash
+npm run dev
+```
+
+Frontend disponível em:
+
+[http://localhost:5173](http://localhost:5173)
+
 # Contexto Acadêmico
 
 Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
