@@ -152,6 +152,21 @@ Elaboração do relatório final | Mês 10–11 |
 
 ---
 
+# Download
+
+O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
+
+Nela estão disponíveis:
+
+- Informações sobre o projeto
+- Demonstrações das funcionalidades
+- Download da versão mais recente do aplicativo desktop
+
+🔗 **Landing Page**
+https://morslum.vercel.app
+
+Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+
 # Contexto Acadêmico
 
 Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
