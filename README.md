@@ -8,6 +8,37 @@ O sistema também conta com um **aplicativo desktop** para análise linguística
 
 Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
 
+# Sumário
+
+* [Como fazer o Download da aplicação](#como-fazer-o-download-da-aplicação)
+* [Funcionalidades](#funcionalidades)
+
+  * [Analisador Morfossintático](#analisador-morfossintático)
+  * [Quiz Interativo](#quiz-interativo)
+* [Tecnologias](#tecnologias)
+* [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
+* [Executando com Docker](#executando-com-docker)
+* [Executando sem Docker](#executando-sem-docker)
+* [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
+* [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
+* [Licença](#licença)
+
+# Como fazer o Download da aplicação
+
+O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
+
+Nela estão disponíveis:
+
+- Informações sobre o projeto
+- Demonstrações das funcionalidades
+- Download da versão mais recente do aplicativo desktop
+
+🔗 **Acesse a seguinte página para baixar a aplicação:**
+https://morslum.vercel.app
+
+Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+
+---
 
 # Funcionalidades
 
@@ -155,61 +186,28 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
 </table>
 ---
 
-# Arquitetura do Projeto
+# Arquitetura Geral do Projeto
 
 O sistema é composto por três partes principais:
 
 **Frontend**
 - Interface web para interação com o sistema.
+- Acesse para mais detalhes da arquiterura do frontend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 **Backend**
 - API responsável pela análise linguística utilizando spaCy.
+- Acesse para mais detalhes da arquiterurado backend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
-**Desktop Application**
-- Aplicação empacotada com Electron para uso local.
+**Electron**
+- Aplicação empacotada com Electron para criação do executável.
+- Acesse para mais detalhes da arquiterura do electron: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 **Landing Page**
 - Página de apresentação do projeto com download do aplicativo.
+- Acesse para mais detalhes da arquiterura da landing page: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 ---
 
-# Cronograma de Desenvolvimento
-
-| Etapa | Período |
-|------|------|
-Revisão teórica sobre gramática e PLN | Mês 1 |
-Estudo de estruturas sintáticas e conjunções | Mês 2 |
-Pesquisa sobre spaCy e métodos de análise | Mês 2 |
-Coleta e organização de frases | Mês 3 |
-Desenvolvimento do Backend | Mês 4–6 |
-Desenvolvimento do Frontend | Mês 7–9 |
-Empacotamento com Electron | Mês 10 |
-Testes e validação | Mês 10–11 |
-Elaboração do relatório final | Mês 10–11 |
-
----
-
-# Como fazer o Download da aplicação
-
-O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
-
-Nela estão disponíveis:
-
-- Informações sobre o projeto
-- Demonstrações das funcionalidades
-- Download da versão mais recente do aplicativo desktop
-
-🔗 **Acesse a seguinte página para baixar a aplicação:**
-https://morslum.vercel.app
-
-Após o download, basta executar o instalador para utilizar o aplicativo localmente.
-
----
-# Executando o Projeto em Modo Desenvolvedor
-
-O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
-
----
 
 ## Executando com Docker
 
@@ -307,6 +305,66 @@ Frontend disponível em:
 ```bash
 http://localhost:5173
 ```
+<h1 align="center">Cronograma de Desenvolvimento</h1>
+
+<table align="center">
+  <tr>
+    <th>Etapa</th>
+    <th>Período</th>
+  </tr>
+
+  <tr>
+    <td>Revisão teórica sobre gramática e PLN</td>
+    <td>Mês 1</td>
+  </tr>
+
+  <tr>
+    <td>Estudo de estruturas sintáticas e conjunções</td>
+    <td>Mês 2</td>
+  </tr>
+
+  <tr>
+    <td>Pesquisa sobre spaCy e métodos de análise</td>
+    <td>Mês 2</td>
+  </tr>
+
+  <tr>
+    <td>Coleta e organização de frases</td>
+    <td>Mês 3</td>
+  </tr>
+
+  <tr>
+    <td>Desenvolvimento do Backend</td>
+    <td>Mês 4–6</td>
+  </tr>
+
+  <tr>
+    <td>Desenvolvimento do Frontend</td>
+    <td>Mês 7–9</td>
+  </tr>
+
+  <tr>
+    <td>Empacotamento com Electron</td>
+    <td>Mês 10</td>
+  </tr>
+
+  <tr>
+    <td>Testes e validação</td>
+    <td>Mês 10–11</td>
+  </tr>
+
+  <tr>
+    <td>Elaboração do relatório final</td>
+    <td>Mês 10–11</td>
+  </tr>
+
+</table>
+
+# Executando o Projeto em Modo Desenvolvedor
+
+O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
+
+---
 
 
 # Licença
