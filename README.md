@@ -12,15 +12,14 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
 
 * [Como fazer o Download da aplicação](#como-fazer-o-download-da-aplicação)
 * [Funcionalidades](#funcionalidades)
-
   * [Analisador Morfossintático](#analisador-morfossintático)
   * [Quiz Interativo](#quiz-interativo)
 * [Tecnologias](#tecnologias)
 * [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
-* [Executando com Docker](#executando-com-docker)
-* [Executando sem Docker](#executando-sem-docker)
-* [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
 * [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
+  * [Executando com Docker](#executando-com-docker)
+  * [Executando sem Docker](#executando-sem-docker)
+* [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
 * [Licença](#licença)
 
 # Como fazer o Download da aplicação
@@ -38,8 +37,6 @@ https://morslum.vercel.app
 
 Após o download, basta executar o instalador para utilizar o aplicativo localmente.
 
----
-
 # Funcionalidades
 
 ## Analisador Morfossintático
@@ -52,8 +49,6 @@ Permite analisar frases em português e obter:
 
 A análise é realizada utilizando modelos de **Processamento de Linguagem Natural (NLP)** da biblioteca **spaCy**.
 
----
-
 ## Quiz Interativo
 
 A aplicação inclui um sistema de quiz para auxiliar no aprendizado de análise sintática.
@@ -64,8 +59,6 @@ Cada questão apresenta:
 - Alternativas para a classificação da estrutura da frase
 
 O objetivo é reforçar o aprendizado de conceitos gramaticais por meio da prática.
-
----
 
 # Tecnologias
 
@@ -184,7 +177,7 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
   </tr>
 
 </table>
----
+
 
 # Arquitetura Geral do Projeto
 
@@ -206,8 +199,9 @@ O sistema é composto por três partes principais:
 - Página de apresentação do projeto com download do aplicativo.
 - Acesse para mais detalhes da arquiterura da landing page: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
----
+# Executando o Projeto em Modo Desenvolvedor
 
+O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
 
 ## Executando com Docker
 
@@ -305,7 +299,7 @@ Frontend disponível em:
 ```bash
 http://localhost:5173
 ```
-<h1 align="center">Cronograma de Desenvolvimento</h1>
+# Cronograma de Desenvolvimento
 
 <table align="center">
   <tr>
@@ -360,13 +354,27 @@ http://localhost:5173
 
 </table>
 
-# Executando o Projeto em Modo Desenvolvedor
-
-O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
-
----
-
-
 # Licença
-Este projeto está licenciado sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
+```
+MIT License
+
+Copyright (c) 2026 Pedro Trovo - MORSLUM
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
