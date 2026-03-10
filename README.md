@@ -12,7 +12,7 @@ O sistema também conta com um **aplicativo desktop** para análise linguística
 
 Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
 
-Este projeto possui uma versão arquivada e citável no Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18932789.svg)](https://doi.org/10.5281/zenodo.18932789)
+Este projeto possui uma versão arquivada e citável no Zenodo:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18944100.svg)](https://doi.org/10.5281/zenodo.18944100)
 
 O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
 
