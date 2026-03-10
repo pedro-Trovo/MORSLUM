@@ -10,7 +10,7 @@ Entre as funcionalidades disponíveis na interface estão:
 
 * análise sintática de frases
 * visualização da árvore de dependência
-* quiz interativo sobre classificação gramatical
+* quiz interativo sobre classificação morfossintática
 * páginas informativas sobre o projeto
 
 ---
