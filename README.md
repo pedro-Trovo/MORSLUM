@@ -29,7 +29,6 @@ O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page of
 Nela estão disponíveis:
 
 - Informações sobre o projeto
-- Demonstrações das funcionalidades
 - Download da versão mais recente do aplicativo desktop
 
 🔗 **Acesse a seguinte página para baixar a aplicação:**
@@ -64,9 +63,9 @@ O objetivo é reforçar o aprendizado de conceitos gramaticais por meio da prát
 
 A plataforma foi desenvolvida utilizando diferentes tecnologias para cada parte do sistema.
 
-O **frontend** foi construído com React para criar uma interface interativa.  
-O **backend** utiliza Python e Flask para realizar o processamento linguístico com a biblioteca spaCy.  
-Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** e uma **landing page para distribuição do software**.
+O **frontend** foi construído com React e Vite.  
+O **backend** foi desenvolvido em **Python com Flask**, expondo uma API responsável por processar as frases enviadas pelo frontend e realizar a análise linguística utilizando a biblioteca **spaCy**, que identifica classes gramaticais e relações de dependência sintática entre as palavras. Além disso, o backend também gerencia a lógica do **Quiz**, fornecendo questões e verificando as respostas enviadas pela aplicação.
+Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** e uma **landing page para distribuição do software** que foi construída com React e Vite.
 
 <table align="center">
   <tr>
@@ -209,17 +208,13 @@ O projeto pode ser executado localmente utilizando **Docker** ou executando os s
 
 ```bash
 git clone https://github.com/pedro-Trovo/MORSLUM
-cd morslum
 ```
 
 ### 2 — Gerar o arquivo de configuração do backend
-
-Antes de iniciar os containers é necessário gerar o arquivo `.env` do backend.
+Dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
 
 ```bash
-cd back-end
 python setup_env.py
-cd ..
 ```
 
 Esse script irá gerar automaticamente um arquivo `.env` contendo:
@@ -229,6 +224,7 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 ### 3 — Iniciar os containers
 
+Volte a raíz do projeto `/MORSLUM` e rode o seguinte comando:
 ```bash
 docker compose up --build
 ```
@@ -250,17 +246,21 @@ http://localhost:5000
 
 Clone este repositório:
 
-Acesse o repositório do backend:
-
 ```bash
-cd back-end
+git clone https://github.com/pedro-Trovo/MORSLUM
 ```
 
-Gere o arquivo `.env` do backend.
+Gerar o arquivo de configuração do backend
+Dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
 
 ```bash
 python setup_env.py
 ```
+
+Esse script irá gerar automaticamente um arquivo `.env` contendo:
+
+- `SECRET_KEY`
+- `APP_MODE`
 
 Instale as dependências:
 
