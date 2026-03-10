@@ -44,16 +44,6 @@ Exemplos:
 
 Diretório que contém **todo o código fonte da aplicação**.
 
-### assets/
-
-Armazena **recursos utilizados diretamente no código**, como:
-
-* imagens
-* fontes
-* ícones
-* outros arquivos importados pelos componentes React
-
----
 
 ### components/
 
