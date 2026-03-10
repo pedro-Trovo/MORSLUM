@@ -38,7 +38,7 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
 
 # Funcionalidades
 
-Existem duas funcionalidades disponíveis na aplicação,  ** Analisador Morfossintático** e **Quiz**.
+Existem duas funcionalidades disponíveis na aplicação,  **Analisador Morfossintático** e **Quiz**.
 
 ## Analisador Morfossintático
 
@@ -362,10 +362,10 @@ http://localhost:5173
 </table>
 
 # Licença
-```
+
 MIT License
 
-Copyright (c) 2026 Pedro Trovo - MORSLUM
+Copyright (c) 2026 Pedro de O. R. Trovo - MORSLUM
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -384,4 +384,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+
