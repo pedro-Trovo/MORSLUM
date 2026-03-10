@@ -191,19 +191,27 @@ export default function Analisador() {
               } 
               className="mb-4"
             >
-              <div className="flex justify-content-center p-3 overflow-auto">
+              <div 
+                className="p-3" 
+                style={{ 
+                  overflowX: "auto", 
+                  overflowY: "auto", 
+                  maxHeight: "500px", 
+                  width: "100%" 
+                }}
+              >
                 <div 
                   dangerouslySetInnerHTML={{ __html: resultado.arvore_svg }} 
                   style={{ 
                     display: "inline-block",
                     backgroundColor: "#072912",
                     borderRadius: "8px",
-                    padding: "20px"
+                    padding: "20px",
+                    minWidth: "100%" 
                   }}
                 />
               </div>
             </Card>
-
             {/* Card de Estatísticas Detalhadas - Ícone branco */}
             <Card 
               title={
