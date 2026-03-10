@@ -223,12 +223,12 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
-> ⚠️ **Observação:**  
+> [!ATENÇÂO]  
 > Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 ### 3 — Iniciar os containers
 
-Volte a raíz do projeto `/MORSLUM` e rode o seguinte comando:
+Volte a raíz do projeto `/MORSLUM` e execute o comando:
 ```bash
 docker compose up --build
 ```
@@ -254,7 +254,7 @@ Clone este repositório:
 git clone https://github.com/pedro-Trovo/MORSLUM
 ```
 
-Gerar o arquivo de configuração do backend, dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
+Gerar o arquivo de configuração do backend, dentro do projeto `/MORSLUM` acesse `/back-end` e execute o comando:
 
 ```bash
 python setup_env.py
@@ -264,7 +264,7 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
-> ⚠️ **Observação:**  
+> [!ATENÇÂO]  
 > Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 Instale as dependências:
@@ -290,7 +290,7 @@ Acesse a pasta:
 cd front-end
 ```
 
-Instale dependências:
+Instale as dependências:
 
 ```bash
 npm install
