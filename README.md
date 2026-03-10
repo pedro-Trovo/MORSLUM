@@ -1,4 +1,4 @@
-# MORSLUM
+# Sobre o MORSLUM
 
 **MORSLUM (MORphoSyntaxis LaboratoriUM)** é uma plataforma voltada à análise morfossintática da língua portuguesa, desenvolvida como Projeto de Pesquisa no Programa de Iniciação Científica da FATEC Ipiranga.
 
