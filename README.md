@@ -1,6 +1,6 @@
-# MORSLUM
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18932789.svg)](https://doi.org/10.5281/zenodo.18932789)
+
+
 
 # Sobre o MORSLUM
 
@@ -12,9 +12,17 @@ O sistema também conta com um **aplicativo desktop** para análise linguística
 
 Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
 
+Este projeto possui uma versão arquivada e citável no Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18932789.svg)](https://doi.org/10.5281/zenodo.18932789)
+
+O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
+
+🔗 **Acesse a seguinte página para baixar a aplicação:** https://morslum.vercel.app
+
+Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+
 # Sumário
 
-* [Como fazer o Download da aplicação](#como-fazer-o-download-da-aplicação)
+* [Sobre o MORSLUM](#sobre-o-morslum)
 * [Funcionalidades](#funcionalidades)
   * [Analisador Morfossintático](#analisador-morfossintático)
   * [Quiz](#quiz)
@@ -25,20 +33,7 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
   * [Executando sem Docker](#executando-sem-docker)
 * [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
 * [License](#license)
-
-# Como fazer o Download da aplicação
-
-O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
-
-Nela estão disponíveis:
-
-- Informações sobre o projeto
-- Download da versão mais recente do aplicativo desktop
-
-🔗 **Acesse a seguinte página para baixar a aplicação:**
-https://morslum.vercel.app
-
-Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+  
 
 # Funcionalidades
 
