@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
 * [Como fazer o Download da aplicação](#como-fazer-o-download-da-aplicação)
 * [Funcionalidades](#funcionalidades)
   * [Analisador Morfossintático](#analisador-morfossintático)
-  * [Quiz Interativo](#quiz-interativo)
+  * [Quiz](#quiz)
 * [Tecnologias](#tecnologias)
 * [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
 * [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
@@ -38,6 +38,8 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
 
 # Funcionalidades
 
+Existem duas funcionalidades disponíveis na aplicação,  ** Analisador Morfossintático** e **Quiz**.
+
 ## Analisador Morfossintático
 
 Permite analisar frases em português e obter:
@@ -48,7 +50,7 @@ Permite analisar frases em português e obter:
 
 A análise é realizada utilizando modelos de **Processamento de Linguagem Natural (NLP)** da biblioteca **spaCy**.
 
-## Quiz Interativo
+## Quiz
 
 A aplicação inclui um sistema de quiz para auxiliar no aprendizado de análise sintática.
 
@@ -57,7 +59,7 @@ Cada questão apresenta:
 - Uma árvore de dependências
 - Alternativas para a classificação da estrutura da frase
 
-O objetivo é reforçar o aprendizado de conceitos gramaticais por meio da prática.
+O objetivo é reforçar o aprendizado de conceitos morfossintáticos por meio da prática.
 
 # Tecnologias
 
@@ -221,6 +223,8 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
+> ⚠️ **Observação:**  
+> Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 ### 3 — Iniciar os containers
 
@@ -250,8 +254,7 @@ Clone este repositório:
 git clone https://github.com/pedro-Trovo/MORSLUM
 ```
 
-Gerar o arquivo de configuração do backend
-Dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
+Gerar o arquivo de configuração do backend, dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
 
 ```bash
 python setup_env.py
@@ -261,6 +264,8 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
+> ⚠️ **Observação:**  
+> Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 Instale as dependências:
 
