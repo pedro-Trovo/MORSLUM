@@ -223,7 +223,7 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
-> [!ATENÇÂO]  
+> [!WARNING] 
 > Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 ### 3 — Iniciar os containers
@@ -240,9 +240,9 @@ Após a inicialização:
   http://localhost:3000
   ```
 - Backend disponível em:
- ```bash
-http://localhost:5000
- ```
+  ```bash
+  http://localhost:5000
+  ```
 
 ## Executando sem Docker
 
@@ -264,7 +264,7 @@ Esse script irá gerar automaticamente um arquivo `.env` contendo:
 
 - `SECRET_KEY`
 - `APP_MODE`
-> [!ATENÇÂO]  
+> [!WARNING]   
 > Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
 
 Instale as dependências:
