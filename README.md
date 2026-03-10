@@ -181,18 +181,18 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
 
 # Arquitetura Geral do Projeto
 
-O sistema é composto por três partes principais:
+O Projeto é composto por quatro repositórios:
 
 **Frontend**
-- Interface web para interação com o sistema.
+- Interface da aplicação.
 - Acesse para mais detalhes da arquiterura do frontend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 **Backend**
-- API responsável pela análise linguística utilizando spaCy.
+- API responsável pela análise linguística utilizando spaCy e pelo dornecimento das questões do quiz.
 - Acesse para mais detalhes da arquiterurado backend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 **Electron**
-- Aplicação empacotada com Electron para criação do executável.
+- Responsável por empacotar aplicação gerando o executável com Electron.
 - Acesse para mais detalhes da arquiterura do electron: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
 
 **Landing Page**
@@ -235,32 +235,34 @@ docker compose up --build
 
 Após a inicialização:
 
-- **Frontend:** ```bash http://localhost:3000```
-- **Backend API:** ```bash http://localhost:5000```
-
----
+- Frontend disponível em:
+  ```bash
+  http://localhost:3000
+  ```
+- Backend disponível em:
+ ```bash
+http://localhost:5000
+ ```
 
 ## Executando sem Docker
-
-Caso prefira executar manualmente.
 
 ### 1 — Backend
 
 Clone este repositório:
 
-Acesse a pasta:
+Acesse o repositório do backend:
 
 ```bash
 cd back-end
 ```
 
-Rode o script `setup_env.py` para criar o arquivo `.env` já com as variáveis de ambiente:
+Gere o arquivo `.env` do backend.
 
 ```bash
 python setup_env.py
 ```
 
-Instale dependências:
+Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
