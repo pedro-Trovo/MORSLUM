@@ -130,6 +130,9 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
       <a href="https://vitejs.dev/">
         <img alt="Vite" src="https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/>
       </a>
+     <a href="https://primereact.org/">
+        <img alt="PrimeReact" src="https://img.shields.io/badge/primereact-%23007ACC.svg?style=for-the-badge"/>
+      </a>
     </td>
     <td>
       <a href="https://www.electronjs.org/">
