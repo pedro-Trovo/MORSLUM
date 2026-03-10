@@ -20,7 +20,7 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
   * [Executando com Docker](#executando-com-docker)
   * [Executando sem Docker](#executando-sem-docker)
 * [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
-* [Licença](#licença)
+* [License](#license)
 
 # Como fazer o Download da aplicação
 
@@ -361,7 +361,7 @@ http://localhost:5173
 
 </table>
 
-# Licença
+# License
 
 MIT License
 
