@@ -1,7 +1,8 @@
-# Sobre o MORSLUM
+# MORSLUM
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18932789.svg)](https://doi.org/10.5281/zenodo.18932789)
 
+# Sobre o MORSLUM
 
 **MORSLUM (MORphoSyntaxis LaboratoriUM)** é uma plataforma voltada à análise morfossintática da língua portuguesa, desenvolvida como Projeto de Pesquisa no Programa de Iniciação Científica da FATEC Ipiranga.
 
