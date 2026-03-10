@@ -186,19 +186,19 @@ O Projeto é composto por quatro repositórios:
 
 **Frontend**
 - Interface da aplicação.
-- Acesse para mais detalhes da arquiterura do frontend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
+- Acesse para mais detalhes da arquiterura do frontend: [README](https://github.com/pedro-Trovo/MORSLUM/blob/main/front-end/README.md)
 
 **Backend**
 - API responsável pela análise linguística utilizando spaCy e pelo dornecimento das questões do quiz.
-- Acesse para mais detalhes da arquiterurado backend: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
+- Acesse para mais detalhes da arquiterurado backend: [README](https://github.com/pedro-Trovo/MORSLUM/blob/main/back-end/README.md)
 
 **Electron**
 - Responsável por empacotar aplicação gerando o executável com Electron.
-- Acesse para mais detalhes da arquiterura do electron: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
+- Acesse para mais detalhes da arquiterura do electron: [README](https://github.com/pedro-Trovo/MORSLUM/blob/main/electron/README.md)
 
 **Landing Page**
 - Página de apresentação do projeto com download do aplicativo.
-- Acesse para mais detalhes da arquiterura da landing page: [README](https://github.com/pedro-Trovo/MORSLUM-backend#readme)
+- Acesse para mais detalhes da arquiterura da landing page: [README](https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md)
 
 # Executando o Projeto em Modo Desenvolvedor
 
