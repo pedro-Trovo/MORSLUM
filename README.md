@@ -1,24 +1,3 @@
-
-div align="center">
-  
-  <!-- Badges de status -->
-  <img src="https://img.shields.io/github/stars/pedro-Trovo/MORSLUM?style=for-the-badge&color=blueviolet" alt="stars"/>
-  <img src="https://img.shields.io/github/forks/pedro-Trovo/MORSLUM?style=for-the-badge&color=blueviolet" alt="forks"/>
-  <img src="https://img.shields.io/github/issues/pedro-Trovo/MORSLUM?style=for-the-badge&color=blueviolet" alt="issues"/>
-  <img src="https://img.shields.io/github/license/pedro-Trovo/MORSLUM?style=for-the-badge&color=blueviolet" alt="license"/>
-  <img src="https://img.shields.io/github/last-commit/pedro-Trovo/MORSLUM?style=for-the-badge&color=blueviolet" alt="last commit"/>
-  
-  <!-- Badges das tecnologias principais -->
-  <br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  
-</div>
-
-
 # Sobre o MORSLUM
 
 **MORSLUM (MORphoSyntaxis LaboratoriUM)** é uma plataforma voltada à análise morfossintática da língua portuguesa, desenvolvida como Projeto de Pesquisa no Programa de Iniciação Científica da FATEC Ipiranga.
