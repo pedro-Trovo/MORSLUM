@@ -45,13 +45,18 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
 
 <p align="center">
 
-[Sobre o MORSLUM](#sobre-o-morslum) •  
-[Funcionalidades](#funcionalidades) •  
-[Tecnologias](#tecnologias) •  
-[Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto) •  
-[Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor) •  
-[Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento) •  
-[License](#license)
+
+* [Sobre o MORSLUM](#sobre-o-morslum)
+* [Funcionalidades](#funcionalidades)
+  * [Analisador Morfossintático](#analisador-morfossintático)
+  * [Quiz](#quiz)
+* [Tecnologias](#tecnologias)
+* [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
+* [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
+  * [Executando com Docker](#executando-com-docker)
+  * [Executando sem Docker](#executando-sem-docker)
+* [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
+* [License](#license)
 
 </p>
 
