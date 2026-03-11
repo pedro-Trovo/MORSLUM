@@ -15,7 +15,7 @@ Projeto desenvolvido no <strong>Programa de Iniciação Científica da FATEC Ipi
 </a>
 </p>
 
----
+
 
 <h2 align="center">Sobre o MORSLUM</h2>
 
@@ -39,7 +39,7 @@ O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page of
 
 Após o download, basta executar o instalador para utilizar o aplicativo localmente.
 
----
+
 
 <h2 align="center">Sumário</h2>
 
@@ -60,7 +60,7 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
 
 </p>
 
----
+
 
 <h2 align="center">Funcionalidades</h2>
 
@@ -69,7 +69,7 @@ A aplicação possui duas funcionalidades principais:
 - **Analisador Morfossintático**
 - **Quiz**
 
----
+
 
 ### Analisador Morfossintático
 
@@ -81,7 +81,7 @@ Permite analisar frases em português e obter:
 
 A análise é realizada utilizando modelos de **Processamento de Linguagem Natural (NLP)** da biblioteca **spaCy**.
 
----
+
 
 ### Quiz
 
@@ -94,7 +94,7 @@ Cada questão apresenta:
 
 O objetivo é reforçar o aprendizado de conceitos **morfossintáticos por meio da prática**.
 
----
+
 
 <h2 align="center">Tecnologias</h2>
 
@@ -122,37 +122,110 @@ O projeto inclui ainda:
 
   <tr>
     <th>Linguagens</th>
-    <td><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></td>
-    <td><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></td>
-    <td><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.python.org/">
+        <img alt="Python" src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/>
+      </a>
+    </td>
   </tr>
 
   <tr>
     <th>Frameworks / Bibliotecas</th>
     <td>
-      <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-      <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
-      <img src="https://img.shields.io/badge/primereact-007ACC?style=for-the-badge">
+      <a href="https://react.dev/">
+        <img alt="React" src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+      </a>
+      <a href="https://vitejs.dev/">
+        <img alt="Vite" src="https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/>
+      </a>
+      <a href="https://primereact.org/">
+        <img alt="PrimeReact" src="https://img.shields.io/badge/primereact-%23007ACC.svg?style=for-the-badge"/>
+      </a>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-      <img src="https://img.shields.io/badge/spacy-09A3D5?style=for-the-badge">
+      <a href="https://flask.palletsprojects.com/">
+        <img alt="Flask" src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
+      </a>
+      <a href="https://spacy.io/">
+        <img alt="spaCy" src="https://img.shields.io/badge/spacy-09A3D5.svg?style=for-the-badge"/>
+      </a>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-      <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
-      <img src="https://img.shields.io/badge/primereact-007ACC?style=for-the-badge">
+      <a href="https://react.dev/">
+        <img alt="React" src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+      </a>
+      <a href="https://vitejs.dev/">
+        <img alt="Vite" src="https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/>
+      </a>
+     <a href="https://primereact.org/">
+        <img alt="PrimeReact" src="https://img.shields.io/badge/primereact-%23007ACC.svg?style=for-the-badge"/>
+      </a>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/electron-47848F?style=for-the-badge&logo=electron&logoColor=white">
+      <a href="https://www.electronjs.org/">
+        <img alt="Electron" src="https://img.shields.io/badge/electron-%2347848F.svg?style=for-the-badge&logo=electron&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th>DevOps / Infra</th>
+    <td> <a href="https://www.docker.com/">
+        <img alt="Docker" src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.docker.com/">
+        <img alt="Docker" src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://vercel.com/">
+        <img alt="Vercel" src="https://img.shields.io/badge/vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+      </a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>IDE / Editor</th>
+    <td>
+      <a href="https://code.visualstudio.com/">
+        <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.jetbrains.com/pycharm/">
+        <img alt="PyCharm" src="https://img.shields.io/badge/pycharm-000000.svg?style=for-the-badge&logo=pycharm&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://code.visualstudio.com/">
+        <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://code.visualstudio.com/">
+        <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+      </a>
     </td>
   </tr>
 
 </table>
-
----
-
 <h2 align="center">Arquitetura Geral do Projeto</h2>
 
 O projeto é composto por **quatro componentes principais**.
@@ -164,7 +237,7 @@ Interface da aplicação.
 🔗 Mais detalhes da arquitetura:  
 https://github.com/pedro-Trovo/MORSLUM/blob/main/front-end/README.md
 
----
+
 
 ### Backend
 
@@ -173,7 +246,7 @@ API responsável pela análise linguística utilizando **spaCy** e pelo fornecim
 🔗 Mais detalhes da arquitetura:  
 https://github.com/pedro-Trovo/MORSLUM/blob/main/back-end/README.md
 
----
+
 
 ### Electron
 
@@ -182,7 +255,6 @@ Responsável por empacotar a aplicação e gerar o **executável desktop**.
 🔗 Mais detalhes da arquitetura:  
 https://github.com/pedro-Trovo/MORSLUM/blob/main/electron/README.md
 
----
 
 ### Landing Page
 
@@ -191,7 +263,7 @@ Página de apresentação do projeto com **download do aplicativo**.
 🔗 Mais detalhes da arquitetura:  
 https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md
 
----
+
 
 <h2 align="center">Executando o Projeto em Modo Desenvolvedor</h2>
 
@@ -200,7 +272,7 @@ O projeto pode ser executado localmente de duas formas:
 - **Com Docker**
 - **Sem Docker**
 
----
+
 
 ## Executando com Docker
 
@@ -229,7 +301,7 @@ O script gera automaticamente um arquivo `.env` contendo:
 APP_MODE=dev
 ```
 
----
+
 
 ### 3 — Iniciar os containers
 
@@ -253,7 +325,7 @@ Backend
 http://localhost:5000
 ```
 
----
+
 
 ## Executando sem Docker
 
@@ -287,7 +359,7 @@ Backend disponível em:
 http://localhost:5000
 ```
 
----
+
 
 ### Frontend
 
@@ -313,7 +385,7 @@ Frontend disponível em:
 http://localhost:5173
 ```
 
----
+
 
 <h2 align="center">Cronograma de Desenvolvimento</h2>
 
@@ -370,7 +442,7 @@ http://localhost:5173
 
 </table>
 
----
+
 
 <h2 align="center">License</h2>
 
