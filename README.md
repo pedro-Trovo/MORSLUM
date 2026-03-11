@@ -71,7 +71,7 @@ A aplicação possui duas funcionalidades principais:
 
 
 
-<h3 align="center">Analisador Morfossintático</h3>
+<h2 align="center">Analisador Morfossintático</h2>
 
 
 Permite analisar frases em português e obter:
@@ -84,7 +84,7 @@ A análise é realizada utilizando modelos de **Processamento de Linguagem Natur
 
 
 
-<h3 align="center">Quiz</h3>
+<h2 align="center">Quiz</h2>
 
 A aplicação inclui um sistema de **quiz educacional** para auxiliar no aprendizado de análise sintática.
 
