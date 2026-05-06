@@ -4,6 +4,7 @@ import { Divider } from "primereact/divider";
 import { Timeline } from 'primereact/timeline';
 import { Tooltip } from 'primereact/tooltip';
 import SpaCyIcon from "../../components/icons/SpaCyIcon";
+import { useEffect } from 'react';
 
 import { 
   SiReact, 
@@ -17,7 +18,18 @@ import {
 } from "react-icons/si";
 
 export default function Sobre() {
- 
+  
+  useEffect(() => {
+    if (window.location.hash === '#limitacoes') {
+      setTimeout(() => {
+        const element = document.getElementById('limitacoes');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, []);
+
   const tecnologias = [
     { nome: "React", icone: SiReact, cor: "bg-blue-500", link: "https://react.dev/", descricao: "Biblioteca para interfaces de usuário" },
     { nome: "Vite", icone: SiVite, cor: "bg-purple-500", link: "https://vitejs.dev/", descricao: "Build tool e servidor de desenvolvimento" },
@@ -126,6 +138,39 @@ export default function Sobre() {
             Utilizando técnicas de Processamento de Linguagem Natural (PLN) e a biblioteca spaCy, o sistema é capaz de 
             analisar frases em português, identificar classes gramaticais e gerar árvores de dependência sintática.
           </p>
+        </section>
+
+        <Divider className="mb-5" />
+
+        {/* Seção: Limitações do Modelo */}
+        <section id="limitacoes" className="mb-5">
+          <div className="flex flex-column align-items-center mb-3">
+            <div className="flex align-items-center gap-3">
+              <i className="pi pi-exclamation-triangle text-3xl text-yellow-500"></i>
+              <h2 className="text-2xl m-0">Limitações do Modelo</h2>
+            </div>
+            <Divider className="w-25rem mt-2" style={{ backgroundColor: '#F59E0B', height: '2px' }} />
+          </div>
+          <div className="p-4 border-round border-2 border-yellow-400 bg-yellow-50">
+            <p className="text-gray-700 line-height-3 mb-3">
+              O modelo de Processamento de Linguagem Natural utilizado (spaCy) apresenta algumas limitações 
+              inerentes ao seu treinamento para a língua portuguesa:
+            </p>
+            <ul className="text-gray-700 line-height-3 m-0 pl-4">
+              <li className="mb-2">
+                <strong>Preposições + Artigos:</strong> Palavras como "da" (de + a), "do" (de + o), "dos" (de + os) 
+                são classificadas apenas como preposições, ignorando o artigo contraído.
+              </li>
+              <li className="mb-2">
+                <strong>Adjetivos vs. Particípios:</strong> Adjetivos como "lindo", "ensolarado", "encontrado" e "comprado" 
+                podem ser confundidos com verbos no particípio passado.
+              </li>
+            </ul>
+            <p className="text-gray-600 text-sm mt-3 mb-0">
+              <i className="pi pi-info-circle mr-2"></i>
+              Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
+            </p>
+          </div>
         </section>
 
         <Divider className="mb-5" />
