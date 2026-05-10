@@ -1,20 +1,52 @@
-# MORSLUM
+<h1 align="center">MORSLUM</h1>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18932789.svg)](https://doi.org/10.5281/zenodo.18932789)
+<p align="center">
+<strong>MORphoSyntaxis LaboratoriUM</strong><br>
+Plataforma para análise morfossintática da língua portuguesa utilizando técnicas de Processamento de Linguagem Natural.
+</p>
 
-# Sobre o MORSLUM
+<p align="center">
+Projeto desenvolvido no <strong>Programa de Iniciação Científica da FATEC Ipiranga</strong>.
+</p>
 
-**MORSLUM (MORphoSyntaxis LaboratoriUM)** é uma plataforma voltada à análise morfossintática da língua portuguesa, desenvolvida como Projeto de Pesquisa no Programa de Iniciação Científica da FATEC Ipiranga.
+<p align="center">
+<a href="https://doi.org/10.5281/zenodo.18944100">
+<img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18944100.svg" alt="DOI">
+</a>
+</p>
 
-A aplicação utiliza técnicas de **Processamento de Linguagem Natural (PLN)** para analisar frases em português, identificar classes gramaticais e gerar **árvores de dependência sintática**.
 
-O sistema também conta com um **aplicativo desktop** para análise linguística e uma **landing page** onde o software pode ser baixado.
 
-Este projeto foi desenvolvido como parte do **Programa de Iniciação Científica da FATEC Ipiranga**, com foco no estudo de técnicas de **Processamento de Linguagem Natural aplicadas à análise sintática da língua portuguesa**.
+<h2 align="center">Sobre o MORSLUM</h2>
 
-# Sumário
+**MORSLUM (MORphoSyntaxis LaboratoriUM)** é uma plataforma voltada à **análise morfossintática da língua portuguesa**, desenvolvida como projeto de pesquisa no **Programa de Iniciação Científica da FATEC Ipiranga**.
 
-* [Como fazer o Download da aplicação](#como-fazer-o-download-da-aplicação)
+A aplicação utiliza técnicas de **Processamento de Linguagem Natural (PLN)** para analisar frases em português, identificar **classes gramaticais** e gerar **árvores de dependência sintática**.
+
+O sistema também conta com:
+
+- um **aplicativo desktop** para análise linguística
+- uma **landing page** para distribuição do software
+
+Este projeto possui uma versão **arquivada e citável no Zenodo**, garantindo preservação e reprodutibilidade científica.
+
+O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
+
+<p align="center">
+🔗 <strong>Download da aplicação</strong><br>
+<a href="https://morslum.vercel.app">https://morslum.vercel.app</a>
+</p>
+
+Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+
+
+
+<h2 align="center">Sumário</h2>
+
+<p align="center">
+
+
+* [Sobre o MORSLUM](#sobre-o-morslum)
 * [Funcionalidades](#funcionalidades)
   * [Analisador Morfossintático](#analisador-morfossintático)
   * [Quiz](#quiz)
@@ -29,25 +61,21 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
 * [Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
 * [License](#license)
 
-# Como fazer o Download da aplicação
+</p>
 
-O aplicativo desktop do **MORSLUM** pode ser baixado através da landing page oficial do projeto.
 
-Nela estão disponíveis:
 
-- Informações sobre o projeto
-- Download da versão mais recente do aplicativo desktop
+<h2 align="center">Funcionalidades</h2>
 
-🔗 **Acesse a seguinte página para baixar a aplicação:**
-https://morslum.vercel.app
+A aplicação possui duas funcionalidades principais:
 
-Após o download, basta executar o instalador para utilizar o aplicativo localmente.
+- **Analisador Morfossintático**
+- **Quiz**
 
-# Funcionalidades
 
-Existem duas funcionalidades disponíveis na aplicação,  **Analisador Morfossintático** e **Quiz**.
 
-## Analisador Morfossintático
+<h2 align="center">Analisador Morfossintático</h2>
+
 
 Permite analisar frases em português e obter:
 
@@ -57,16 +85,18 @@ Permite analisar frases em português e obter:
 
 A análise é realizada utilizando modelos de **Processamento de Linguagem Natural (NLP)** da biblioteca **spaCy**.
 
-## Quiz
 
-A aplicação inclui um sistema de quiz para auxiliar no aprendizado de análise sintática.
+
+<h2 align="center">Quiz</h2>
+
+A aplicação inclui um sistema de **quiz educacional** para auxiliar no aprendizado de análise sintática.
 
 Cada questão apresenta:
 
-- Uma árvore de dependências
-- Alternativas para a classificação da estrutura da frase
+- uma **árvore de dependências**
+- **alternativas para classificação da estrutura da frase**
 
-O objetivo é reforçar o aprendizado de conceitos morfossintáticos por meio da prática.
+O objetivo é reforçar o aprendizado de conceitos **morfossintáticos por meio da prática**.
 
 # Imagens do Projeto
 
@@ -91,13 +121,20 @@ O objetivo é reforçar o aprendizado de conceitos morfossintáticos por meio da
 ## Estatísticas detalhadas da análise
 ![Estatísticas](assets/7_Estat%C3%ADsticas%20detalhadas%20da%20an%C3%A1lise.png)
 
-# Tecnologias
+<h2 align="center">Tecnologias</h2>
 
 A plataforma foi desenvolvida utilizando diferentes tecnologias para cada parte do sistema.
 
-O **frontend** foi construído com React e Vite.  
-O **backend** foi desenvolvido em **Python com Flask**, expondo uma API responsável por processar as frases enviadas pelo frontend e realizar a análise linguística utilizando a biblioteca **spaCy**, que identifica classes gramaticais e relações de dependência sintática entre as palavras. Além disso, o backend também gerencia a lógica do **Quiz**, fornecendo questões e verificando as respostas enviadas pela aplicação.
-Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** e uma **landing page para distribuição do software** que foi construída com React e Vite.
+O **frontend** foi construído com **React e Vite**.
+
+O **backend** foi desenvolvido em **Python com Flask**, expondo uma API responsável por processar as frases enviadas pelo frontend e realizar a análise linguística utilizando a biblioteca **spaCy**, que identifica classes gramaticais e relações de dependência sintática entre as palavras.
+
+Além disso, o backend também gerencia a lógica do **Quiz**, fornecendo questões e verificando as respostas enviadas pela aplicação.
+
+O projeto inclui ainda:
+
+- um **aplicativo desktop empacotado com Electron**
+- uma **landing page para distribuição do software**
 
 <table align="center">
   <tr>
@@ -214,6 +251,16 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
   </tr>
 
 </table>
+<h2 align="center">Arquitetura Geral do Projeto</h2>
+
+O projeto é composto por **quatro componentes principais**.
+
+### Frontend
+
+Interface da aplicação.
+
+🔗 Mais detalhes da arquitetura:  
+https://github.com/pedro-Trovo/MORSLUM/blob/main/front-end/README.md
 
 # Limitações do Modelo
 
@@ -225,25 +272,32 @@ O modelo de Processamento de Linguagem Natural utilizado (spaCy) apresenta algum
 
 Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
 
-# Arquitetura Geral do Projeto
 
-O Projeto é composto por quatro repositórios:
+### Backend
 
-**Frontend**
-- Interface da aplicação.
-- Acesse para mais detalhes da arquiterura do frontend: [README-FRONTEND](https://github.com/pedro-Trovo/MORSLUM/blob/main/front-end/README.md)
+API responsável pela análise linguística utilizando **spaCy** e pelo fornecimento das questões do **Quiz**.
 
-**Backend**
-- API responsável pela análise linguística utilizando spaCy e pelo dornecimento das questões do quiz.
-- Acesse para mais detalhes da arquiterurado backend: [README-BACKEND](https://github.com/pedro-Trovo/MORSLUM/blob/main/back-end/README.md)
+🔗 Mais detalhes da arquitetura:  
+https://github.com/pedro-Trovo/MORSLUM/blob/main/back-end/README.md
 
-**Electron**
-- Responsável por empacotar aplicação gerando o executável com Electron.
-- Acesse para mais detalhes da arquiterura do electron: [README-ELECTRON](https://github.com/pedro-Trovo/MORSLUM/blob/main/electron/README.md)
 
-**Landing Page**
-- Página de apresentação do projeto com download do aplicativo.
-- Acesse para mais detalhes da arquiterura da landing page: [README-LANDING-PAGE](https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md)
+
+### Electron
+
+Responsável por empacotar a aplicação e gerar o **executável desktop**.
+
+🔗 Mais detalhes da arquitetura:  
+https://github.com/pedro-Trovo/MORSLUM/blob/main/electron/README.md
+
+
+### Landing Page
+
+Página de apresentação do projeto com **download do aplicativo**.
+
+🔗 Mais detalhes da arquitetura:  
+https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md
+
+
 
 # Python Embedded (python-embed)
 
@@ -288,9 +342,14 @@ necessárias para executar o backend no aplicativo desktop empacotado com Electr
    Compress-Archive -Path python-embed\* -DestinationPath python-embed.zip
    ```
 
-# Executando o Projeto em Modo Desenvolvedor
 
-O projeto pode ser executado localmente utilizando **Docker** ou executando os serviços manualmente.
+<h2 align="center">Executando o Projeto em Modo Desenvolvedor</h2>
+
+O projeto pode ser executado localmente de duas formas:
+
+- **Com Docker**
+- **Sem Docker**
+
 
 ## Executando com Docker
 
@@ -298,158 +357,171 @@ O projeto pode ser executado localmente utilizando **Docker** ou executando os s
 
 ```bash
 git clone https://github.com/pedro-Trovo/MORSLUM
-```
+````
 
 ### 2 — Gerar o arquivo de configuração do backend
-Dentro do projeto `/MORSLUM` acesse `/back-end` e rode o seguinte comando:
+
+Dentro de `/MORSLUM/back-end` execute:
 
 ```bash
 python setup_env.py
 ```
 
-Esse script irá gerar automaticamente um arquivo `.env` contendo:
+O script gera automaticamente um arquivo `.env` contendo:
 
-- `SECRET_KEY`
-- `APP_MODE`
-> [!WARNING] 
-> Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
+* `SECRET_KEY`
+* `APP_MODE`
+
+⚠ Certifique-se de que:
+
+```
+APP_MODE=dev
+```
+
+
 
 ### 3 — Iniciar os containers
 
-Volte a raíz do projeto `/MORSLUM` e execute o comando:
+Na raiz do projeto:
+
 ```bash
 docker compose up --build
 ```
 
-Após a inicialização:
+Após iniciar:
 
-- Frontend disponível em:
-  ```bash
-  http://localhost:3000
-  ```
-- Backend disponível em:
-  ```bash
-  http://localhost:5000
-  ```
+Frontend
+
+```
+http://localhost:3000
+```
+
+Backend
+
+```
+http://localhost:5000
+```
+
+
 
 ## Executando sem Docker
 
-### 1 — Backend
-
-Clone este repositório:
+### Backend
 
 ```bash
 git clone https://github.com/pedro-Trovo/MORSLUM
 ```
 
-Gerar o arquivo de configuração do backend, dentro do projeto `/MORSLUM` acesse `/back-end` e execute o comando:
+Gerar `.env`:
 
 ```bash
 python setup_env.py
 ```
 
-Esse script irá gerar automaticamente um arquivo `.env` contendo:
-
-- `SECRET_KEY`
-- `APP_MODE`
-> [!WARNING]   
-> Certifique-se de que a variável `APP_MODE` esteja definida com o valor `dev` no arquivo `.env`.
-
-Instale as dependências:
+Instalar dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Execute o servidor:
+Executar servidor:
 
 ```bash
 python app.py
 ```
+
 Backend disponível em:
-```bash
+
+```
 http://localhost:5000
 ```
-### 2 — Frontend
 
-Acesse a pasta:
+
+
+### Frontend
 
 ```bash
 cd front-end
 ```
 
-Instale as dependências:
+Instalar dependências:
 
 ```bash
 npm install
 ```
 
-Execute:
+Executar:
 
 ```bash
 npm run dev
 ```
 
 Frontend disponível em:
-```bash
+
+```
 http://localhost:5173
 ```
-# Cronograma de Desenvolvimento
+
+
+
+<h2 align="center">Cronograma de Desenvolvimento</h2>
 
 <table align="center">
-  <tr>
-    <th>Etapa</th>
-    <th>Período</th>
-  </tr>
+<tr>
+<th>Etapa</th>
+<th>Período</th>
+</tr>
 
-  <tr>
-    <td>Revisão teórica sobre gramática e PLN</td>
-    <td>Mês 1</td>
-  </tr>
+<tr>
+<td>Revisão teórica sobre gramática e PLN</td>
+<td>Mês 1</td>
+</tr>
 
-  <tr>
-    <td>Estudo de estruturas sintáticas e conjunções</td>
-    <td>Mês 2</td>
-  </tr>
+<tr>
+<td>Estudo de estruturas sintáticas e conjunções</td>
+<td>Mês 2</td>
+</tr>
 
-  <tr>
-    <td>Pesquisa sobre spaCy e métodos de análise</td>
-    <td>Mês 2</td>
-  </tr>
+<tr>
+<td>Pesquisa sobre spaCy e métodos de análise</td>
+<td>Mês 2</td>
+</tr>
 
-  <tr>
-    <td>Coleta e organização de frases</td>
-    <td>Mês 3</td>
-  </tr>
+<tr>
+<td>Coleta e organização de frases</td>
+<td>Mês 3</td>
+</tr>
 
-  <tr>
-    <td>Desenvolvimento do Backend</td>
-    <td>Mês 4–6</td>
-  </tr>
+<tr>
+<td>Desenvolvimento do Backend</td>
+<td>Mês 4–6</td>
+</tr>
 
-  <tr>
-    <td>Desenvolvimento do Frontend</td>
-    <td>Mês 7–9</td>
-  </tr>
+<tr>
+<td>Desenvolvimento do Frontend</td>
+<td>Mês 7–9</td>
+</tr>
 
-  <tr>
-    <td>Empacotamento com Electron</td>
-    <td>Mês 10</td>
-  </tr>
+<tr>
+<td>Empacotamento com Electron</td>
+<td>Mês 10</td>
+</tr>
 
-  <tr>
-    <td>Testes e validação</td>
-    <td>Mês 10–11</td>
-  </tr>
+<tr>
+<td>Testes e validação</td>
+<td>Mês 10–11</td>
+</tr>
 
-  <tr>
-    <td>Elaboração do relatório final</td>
-    <td>Mês 10–11</td>
-  </tr>
+<tr>
+<td>Elaboração do relatório final</td>
+<td>Mês 10–11</td>
+</tr>
 
 </table>
 
-# License
+
+
+<h2 align="center">License</h2>
 
 MIT License
 
@@ -472,4 +544,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
