@@ -52,6 +52,7 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
   * [Quiz](#quiz)
 * [Tecnologias](#tecnologias)
 * [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
+* [Python Embedded (python-embed)](#python-embedded-python-embed)
 * [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
   * [Executando com Docker](#executando-com-docker)
   * [Executando sem Docker](#executando-sem-docker)
@@ -266,13 +267,56 @@ https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md
 
 
 
+# Python Embedded (python-embed)
+
+Diretório que contém o **runtime Python portátil** e todas as dependências
+necessárias para executar o backend no aplicativo desktop empacotado com Electron.
+
+## O que contém
+
+- **Python embedable** — runtime portátil (python.exe, DLLs, bibliotecas padrão)
+- **Dependências do backend** — Flask, flask-cors, python-dotenv, spacy, etc.
+- **Modelo spaCy** — `pt_core_news_sm` (modelo de língua portuguesa)
+
+> [!NOTE]
+> O `python-embed` é ignorado pelo Git (`.gitignore`) devido ao seu tamanho.
+> Para builds do Electron, ele deve estar presente no diretório raiz do projeto.
+
+## Como criar
+
+1. Baixe o **Python embedable** compatível no site oficial:
+   https://www.python.org/downloads/windows/
+   (versão utilizada no projeto: 3.12.0)
+
+2. Extraia o conteúdo para a pasta `python-embed/` na raiz do projeto.
+
+3. Instale o **pip** no embedded Python:
+   ```bash
+   python-embed\python.exe -m ensurepip
+   ```
+
+4. Instale as dependências do backend:
+   ```bash
+   python-embed\python.exe -m pip install -r back-end\requirements.txt
+   ```
+
+5. Baixe o modelo spaCy:
+   ```bash
+   python-embed\python.exe -m spacy download pt_core_news_sm
+   ```
+
+6. (Opcional) Compacte para distribuição:
+   ```bash
+   Compress-Archive -Path python-embed\* -DestinationPath python-embed.zip
+   ```
+
+
 <h2 align="center">Executando o Projeto em Modo Desenvolvedor</h2>
 
 O projeto pode ser executado localmente de duas formas:
 
 - **Com Docker**
 - **Sem Docker**
-
 
 
 ## Executando com Docker
