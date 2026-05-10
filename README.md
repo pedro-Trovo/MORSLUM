@@ -18,7 +18,9 @@ Este projeto foi desenvolvido como parte do **Programa de Iniciação Científic
 * [Funcionalidades](#funcionalidades)
   * [Analisador Morfossintático](#analisador-morfossintático)
   * [Quiz](#quiz)
+* [Imagens do Projeto](#imagens-do-projeto)
 * [Tecnologias](#tecnologias)
+* [Limitações do Modelo](#limitações-do-modelo)
 * [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
 * [Python Embedded (python-embed)](#python-embedded-python-embed)
 * [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
@@ -65,6 +67,29 @@ Cada questão apresenta:
 - Alternativas para a classificação da estrutura da frase
 
 O objetivo é reforçar o aprendizado de conceitos morfossintáticos por meio da prática.
+
+# Imagens do Projeto
+
+## Interface inicial da plataforma MORSLUM
+![Interface inicial](assets/1_Interface%20inicial%20da%20plataforma%20MORSLUM.png)
+
+## Interface do quiz morfossintático
+![Quiz](assets/2_Interface%20do%20quiz%20morfossint%C3%A1tico.png)
+
+## Interface do quiz morfossintático ao responder corretamente uma questão
+![Quiz correto](assets/3_Interface%20do%20quiz%20morfossint%C3%A1tico%20ao%20responder%20corretamente%20uma%20quest%C3%A3o.png)
+
+## Interface do quiz morfossintático ao responder erradamente uma questão
+![Quiz errado](assets/4_Interface%20do%20quiz%20morfossint%C3%A1tico%20ao%20responder%20erradamente%20uma%20quest%C3%A3o.png)
+
+## Exemplo de análise morfossintática gerada pela plataforma
+![Análise](assets/5_%20Exemplo%20de%20an%C3%A1lise%20morfossint%C3%A1tica%20gerada%20pela%20plataforma.png)
+
+## Árvore de dependências sintáticas gerada pelo analisador
+![Árvore](assets/6_%C3%81rvore%20de%20depend%C3%AAncias%20sint%C3%A1ticas%20gerada%20pelo%20analisador.png)
+
+## Estatísticas detalhadas da análise
+![Estatísticas](assets/7_Estat%C3%ADsticas%20detalhadas%20da%20an%C3%A1lise.png)
 
 # Tecnologias
 
@@ -190,6 +215,15 @@ Além disso, o projeto inclui um **aplicativo desktop empacotado com Electron** 
 
 </table>
 
+# Limitações do Modelo
+
+O modelo de Processamento de Linguagem Natural utilizado (spaCy) apresenta algumas limitações inerentes ao seu treinamento para a língua portuguesa:
+
+- **Preposições + Artigos:** Palavras como "da" (de + a), "do" (de + o), "dos" (de + os) são classificadas apenas como preposições, ignorando o artigo contraído.
+
+- **Adjetivos vs. Particípios:** Adjetivos como "lindo", "ensolarado", "encontrado" e "comprado" podem ser confundidos com verbos no particípio passado.
+
+Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
 
 # Arquitetura Geral do Projeto
 
