@@ -1,6 +1,6 @@
 {
   "name": "morslum",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MORSLUM - Analisador Morfossintático",
   "author": "Pedro Trovo",
   "main": "main.js",

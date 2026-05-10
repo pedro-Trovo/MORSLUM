@@ -1,8 +1,8 @@
-import spacy
 from spacy import displacy
 import re
+from src.nlp.spacy_loader import get_nlp
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = get_nlp()
 
 def gerar_arvore(frase):
     doc = nlp(frase)

@@ -20,7 +20,7 @@ import {
 export default function Sobre() {
   
   useEffect(() => {
-    if (window.location.hash === '#limitacoes') {
+    if (window.location.hash.includes('limitacoes')) {
       setTimeout(() => {
         const element = document.getElementById('limitacoes');
         if (element) {
@@ -166,7 +166,7 @@ export default function Sobre() {
                 podem ser confundidos com verbos no particípio passado.
               </li>
             </ul>
-            <p className="text-gray-600 text-sm mt-3 mb-0">
+            <p className="text-gray-600 text-sm mt-3 mb-0 text-center">
               <i className="pi pi-info-circle mr-2"></i>
               Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
             </p>

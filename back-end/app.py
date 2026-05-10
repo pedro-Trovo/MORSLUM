@@ -12,6 +12,7 @@ sys.path.insert(0, parent_dir)
 
 
 from src.api.routes import api_bp
+from src.nlp.spacy_loader import get_nlp
 
 load_dotenv()
 
@@ -23,6 +24,11 @@ app.secret_key = os.getenv("SECRET_KEY")
 
 CORS(app, supports_credentials=True)
 app.register_blueprint(api_bp)
+
+if APP_MODE == "desktop":
+    print("Pré-carregando modelo spaCy...")
+    get_nlp()
+    print("Modelo spaCy pronto!")
 
 if __name__ == "__main__":
     if APP_MODE == "desktop":
