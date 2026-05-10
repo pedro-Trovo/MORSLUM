@@ -98,27 +98,27 @@ Cada questão apresenta:
 
 O objetivo é reforçar o aprendizado de conceitos **morfossintáticos por meio da prática**.
 
-# Imagens do Projeto
+<h2 align="center">Imagens do Projetos</h2>
 
-## Interface inicial da plataforma MORSLUM
+ <h3 align="center">Interface inicial da plataforma MORSLUM</h3>
 ![Interface inicial](assets/1_Interface%20inicial%20da%20plataforma%20MORSLUM.png)
 
-## Interface do quiz morfossintático
+<h3 align="center">Interface do quiz morfossintático</h3>
 ![Quiz](assets/2_Interface%20do%20quiz%20morfossint%C3%A1tico.png)
 
-## Interface do quiz morfossintático ao responder corretamente uma questão
+<h3 align="center">Interface do quiz morfossintático ao responder corretamente uma questão</h3>
 ![Quiz correto](assets/3_Interface%20do%20quiz%20morfossint%C3%A1tico%20ao%20responder%20corretamente%20uma%20quest%C3%A3o.png)
 
-## Interface do quiz morfossintático ao responder erradamente uma questão
+<h3 align="center">Interface do quiz morfossintático ao responder erradamente uma questão</h3>
 ![Quiz errado](assets/4_Interface%20do%20quiz%20morfossint%C3%A1tico%20ao%20responder%20erradamente%20uma%20quest%C3%A3o.png)
 
-## Exemplo de análise morfossintática gerada pela plataforma
+<h3 align="center">Exemplo de análise morfossintática gerada pela plataforma</h3>
 ![Análise](assets/5_%20Exemplo%20de%20an%C3%A1lise%20morfossint%C3%A1tica%20gerada%20pela%20plataforma.png)
 
-## Árvore de dependências sintáticas gerada pelo analisador
+<h3 align="center">Árvore de dependências sintáticas gerada pelo analisador </h3>
 ![Árvore](assets/6_%C3%81rvore%20de%20depend%C3%AAncias%20sint%C3%A1ticas%20gerada%20pelo%20analisador.png)
 
-## Estatísticas detalhadas da análise
+<h3 align="center">Estatísticas detalhadas da análise</h3>
 ![Estatísticas](assets/7_Estat%C3%ADsticas%20detalhadas%20da%20an%C3%A1lise.png)
 
 <h2 align="center">Tecnologias</h2>
@@ -251,6 +251,17 @@ O projeto inclui ainda:
   </tr>
 
 </table>
+
+<h2 align="center">Limitações do Modelo</h2>
+
+O modelo de Processamento de Linguagem Natural utilizado (spaCy) apresenta algumas limitações inerentes ao seu treinamento para a língua portuguesa:
+
+- **Preposições + Artigos:** Palavras como "da" (de + a), "do" (de + o), "dos" (de + os) são classificadas apenas como preposições, ignorando o artigo contraído.
+
+- **Adjetivos vs. Particípios:** Adjetivos como "lindo", "ensolarado", "encontrado" e "comprado" podem ser confundidos com verbos no particípio passado.
+
+Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
+
 <h2 align="center">Arquitetura Geral do Projeto</h2>
 
 O projeto é composto por **quatro componentes principais**.
@@ -261,16 +272,6 @@ Interface da aplicação.
 
 🔗 Mais detalhes da arquitetura:  
 https://github.com/pedro-Trovo/MORSLUM/blob/main/front-end/README.md
-
-# Limitações do Modelo
-
-O modelo de Processamento de Linguagem Natural utilizado (spaCy) apresenta algumas limitações inerentes ao seu treinamento para a língua portuguesa:
-
-- **Preposições + Artigos:** Palavras como "da" (de + a), "do" (de + o), "dos" (de + os) são classificadas apenas como preposições, ignorando o artigo contraído.
-
-- **Adjetivos vs. Particípios:** Adjetivos como "lindo", "ensolarado", "encontrado" e "comprado" podem ser confundidos com verbos no particípio passado.
-
-Estas limitações são do modelo do spaCy e não erros de implementação do MORSLUM.
 
 
 ### Backend
