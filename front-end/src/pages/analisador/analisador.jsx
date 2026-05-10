@@ -11,6 +11,7 @@ import { Divider } from "primereact/divider";
 import { Chip } from "primereact/chip";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { Badge } from "primereact/badge";
+import { Link } from "react-router-dom";
 import { analisadorService } from "../../service/analisadorService";
 
 
@@ -145,6 +146,17 @@ export default function Analisador() {
       {resultado && (
         <div className="flex flex-column align-items-center mt-5 px-4">
           <div className="w-full" style={{ maxWidth: "1200px" }}>
+            {/* Card compacto - Limitações do modelo */}
+            <div className="mb-3 text-center border-round border-1 border-yellow-300 bg-yellow-50 p-2">
+              <p className="m-0 text-xs text-gray-500">
+                <i className="pi pi-exclamation-triangle text-yellow-500 mr-1"></i>
+                O modelo pode apresentar imprecisões na classificação de algumas palavras.
+                <Link to="/sobre#limitacoes" className="text-blue-500 hover:underline ml-1">
+                  Saiba mais
+                </Link>
+              </p>
+            </div>
+
             {/* Card da Frase Original - Ícone branco */}
             <Card className="mb-4">
               <div className="flex align-items-center gap-2">
