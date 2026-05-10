@@ -100,10 +100,10 @@ O objetivo é reforçar o aprendizado de conceitos **morfossintáticos por meio 
 
 <h2 align="center">Imagens do Projetos</h2>
 
- <h3 align="center">Interface inicial da plataforma MORSLUM</h3>
+ <h2 align="center">Interface inicial da plataforma MORSLUM</h2>
 ![Interface inicial](assets/1_Interface%20inicial%20da%20plataforma%20MORSLUM.png)
 
-<h3 align="center">Interface do quiz morfossintático</h3>
+<h2 align="center">Interface do quiz morfossintático</h2>
 ![Quiz](assets/2_Interface%20do%20quiz%20morfossint%C3%A1tico.png)
 
 <h3 align="center">Interface do quiz morfossintático ao responder corretamente uma questão</h3>
