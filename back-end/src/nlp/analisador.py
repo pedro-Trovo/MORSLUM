@@ -1,10 +1,10 @@
-import spacy
 from spacy import displacy
 import re
 from src.utils.tradutor_tags import traduzir_tags
 from src.nlp.classificarFrase import classificar_frase
+from src.nlp.spacy_loader import get_nlp
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = get_nlp()
 
 
 def gerar_arvore(frase):

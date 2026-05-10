@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Button } from 'primereact/button';
 import { Toast } from 'primereact/toast';
 import { ProgressSpinner } from 'primereact/progressspinner';
 import { quizService } from "../../service/quizService";
@@ -17,10 +18,12 @@ export default function Quiz() {
   const [respostaUsuario, setRespostaUsuario] = useState(null);
   const [questaoId, setQuestaoId] = useState(null);
   const [alternativaSelecionada, setAlternativaSelecionada] = useState(null);
+  const [erroCarregar, setErroCarregar] = useState(false);
   const toast = useRef(null);
   const svgContainerRef = useRef(null);
 
-  const carregarQuestao = async () => {
+  const carregarQuestao = async (tentativa = 1) => {
+    setErroCarregar(false);
     try {
       const data = await quizService.getQuestao(); 
       setQuestao(data);
@@ -30,13 +33,18 @@ export default function Quiz() {
       setRespostaUsuario(null);
       setAlternativaSelecionada(null);
     } catch (error) {
-      console.error("Erro ao carregar questão:", error);
-      toast.current?.show({
-        severity: 'error',
-        summary: 'Erro',
-        detail: 'Erro ao carregar questão',
-        life: 3000
-      });
+      console.error(`Erro ao carregar questão (tentativa ${tentativa}):`, error);
+      if (tentativa < 3) {
+        setTimeout(() => carregarQuestao(tentativa + 1), 2000);
+      } else {
+        setErroCarregar(true);
+        toast.current?.show({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Não foi possível carregar a questão. Tente novamente.',
+          life: 5000
+        });
+      }
     }
   };
 
@@ -82,13 +90,23 @@ export default function Quiz() {
     return (
       <div className="flex justify-content-center align-items-center min-h-screen">
         <div className="text-center">
-          <ProgressSpinner 
-            style={{ width: '50px', height: '50px' }} 
-            strokeWidth="4" 
-            fill="var(--surface-ground)" 
-            animationDuration=".5s" 
-          />
-          <p className="mt-3">Carregando questão...</p>
+          {erroCarregar ? (
+            <>
+              <i className="pi pi-exclamation-triangle text-4xl text-yellow-500 mb-3"></i>
+              <p className="text-gray-600 mb-3">Não foi possível carregar a questão.</p>
+              <Button label="Tentar novamente" icon="pi pi-refresh" onClick={() => carregarQuestao()} />
+            </>
+          ) : (
+            <>
+              <ProgressSpinner 
+                style={{ width: '50px', height: '50px' }} 
+                strokeWidth="4" 
+                fill="var(--surface-ground)" 
+                animationDuration=".5s" 
+              />
+              <p className="mt-3">Carregando questão...</p>
+            </>
+          )}
         </div>
       </div>
     );

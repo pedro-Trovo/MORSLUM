@@ -2,6 +2,7 @@ const { app, BrowserWindow, Menu, globalShortcut } = require('electron');
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs');
+const http = require('http');
 
 let backendProcess;
 let mainWindow;
@@ -135,6 +136,51 @@ function createWindow() {
     });
 }
 
+function waitForBackend(maxRetries = 30, interval = 1000) {
+    let attempts = 0;
+
+    function check() {
+        attempts++;
+        console.log(`Aguardando backend... (${attempts}/${maxRetries})`);
+
+        const req = http.get('http://127.0.0.1:5000/health', (res) => {
+            let data = '';
+            res.on('data', (chunk) => { data += chunk; });
+            res.on('end', () => {
+                if (res.statusCode === 200) {
+                    console.log('Backend pronto!');
+                    createWindow();
+                } else {
+                    retry();
+                }
+            });
+        });
+
+        req.on('error', (err) => {
+            console.log(`Backend ainda não disponível (${err.code})`);
+            retry();
+        });
+
+        req.setTimeout(3000, () => {
+            req.destroy();
+            retry();
+        });
+
+        req.end();
+    }
+
+    function retry() {
+        if (attempts < maxRetries) {
+            setTimeout(check, interval);
+        } else {
+            console.error('Backend não iniciou. Abrindo mesmo assim.');
+            createWindow();
+        }
+    }
+
+    check();
+}
+
 app.whenReady().then(() => {
     console.log('Electron pronto, iniciando backend...');
     
@@ -171,7 +217,7 @@ app.whenReady().then(() => {
             console.error('Erro no processo backend:', err);
         });
 
-        setTimeout(createWindow, 2000);
+        waitForBackend();
     } else {
         console.error('Backend ou Python não encontrado');
         createWindow();

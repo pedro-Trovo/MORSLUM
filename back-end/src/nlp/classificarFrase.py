@@ -1,6 +1,6 @@
-import spacy
+from src.nlp.spacy_loader import get_nlp
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = get_nlp()
 
 def classificar_frase(frase, remover_pontuacao=True):
     doc = nlp(frase)
