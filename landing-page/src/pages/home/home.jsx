@@ -28,10 +28,10 @@ export default function Home() {
             label="Download para Windows"
             icon="pi pi-download"
             className="p-button-lg  mb-2"
-            onClick={() => window.open('https://github.com/pedro-Trovo/MORSLUM/releases/download/v1.01/MORSLUM.Setup.1.0.1.exe')}
+            onClick={() => window.open('https://github.com/pedro-Trovo/MORSLUM/releases/download/v1.0.2/MORSLUM.Setup.1.0.2.exe')}
           />
           <p className="text-sm text-gray-500">
-               Versão 1.0.0 • 535 MB • Windows 10/11
+               Versão 1.0.2 • 535 MB • Windows 10/11
           </p>
         </div>
 
