@@ -54,7 +54,6 @@ Após o download, basta executar o instalador para utilizar o aplicativo localme
 * [Tecnologias](#tecnologias)
 * [Limitações do Modelo](#limitações-do-modelo)
 * [Arquitetura Geral do Projeto](#arquitetura-geral-do-projeto)
-* [Python Embedded (python-embed)](#python-embedded-python-embed)
 * [Executando o Projeto em Modo Desenvolvedor](#executando-o-projeto-em-modo-desenvolvedor)
   * [Executando com Docker](#executando-com-docker)
   * [Executando sem Docker](#executando-sem-docker)
@@ -314,12 +313,12 @@ https://github.com/pedro-Trovo/MORSLUM/blob/main/landing-page/README.md
 
 
 
-# Python Embedded (python-embed)
+### Python Embedded (python-embed)
 
 Diretório que contém o **runtime Python portátil** e todas as dependências
 necessárias para executar o backend no aplicativo desktop empacotado com Electron.
 
-## O que contém
+#### O que contém
 
 - **Python embedable** — runtime portátil (python.exe, DLLs, bibliotecas padrão)
 - **Dependências do backend** — Flask, flask-cors, python-dotenv, spacy, etc.
@@ -329,7 +328,7 @@ necessárias para executar o backend no aplicativo desktop empacotado com Electr
 > O `python-embed` é ignorado pelo Git (`.gitignore`) devido ao seu tamanho.
 > Para builds do Electron, ele deve estar presente no diretório raiz do projeto.
 
-## Como criar
+#### Como criar
 
 1. Baixe o **Python embedable** compatível no site oficial:
    https://www.python.org/downloads/windows/
